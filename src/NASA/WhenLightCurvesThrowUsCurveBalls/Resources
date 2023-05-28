@@ -1,0 +1,33 @@
+EXAMPLE RESOURCES
+
+1.When Light Curves Throw Us Curve Balls Challenge Video:
+https://www.youtube.com/watch?v=xcTTn9g_0SY&list=PL37Yhb2zout05pUjr7OoRFpTNroq_wd9f&index=4
+
+
+2. Learn More About the Lucy Mission
+http://nasa.gov/lucy
+
+3. Background on Asteroid Light Curves
+https://www.nasa.gov/content/asteroid-grand-challenge/characterize/light-curve-analysis
+===============================================
+
+SHAPE MODELS OF ASTEROIDS
+
+1.Models 3d resources
+https://nasa3d.arc.nasa.gov/models
+
+2. Asteroid shape models
+https://echo.jpl.nasa.gov/asteroids/shapes/shapes.html
+-------------------------------------------
+
+PAPERS ON LIGHT CURVES
+
+https://iopscience.iop.org/article/10.3847/PSJ/abb9
+
+Note this paper uses the technique of inverse modeling (with certain assumptions about the shape of the asteroid).
+In this challenge, however, we suggest you use forward modeling, starting with the asteroid shape and calculating the light curve
+
+Caption: Light curve for Leucus from 2018 data from Mottola et al., 2020).
+T0 is the observation starting point using one-way, light-travel time corrected, Modified Julian Dates (MJD).
+The listed rotation periods are the exact numbers used for computing the rotational phase, and are reported without uncertainty.
+ Data points beyond rotation phase 1.0 are repeated for clarity.
