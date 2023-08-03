@@ -1,4 +1,4 @@
-package WoraklsSoGood;
+package ButMonolinkIsBetter;
 
 import acm.program.ConsoleProgram;
 
@@ -10,15 +10,15 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-public class WoraklsConcertNewsFetcher extends ConsoleProgram {
+public class MonolinkConcertNewsFetcher extends ConsoleProgram {
 
     public void run(){
-        woraklsConcertNewsFetcherr();
+        monolinkConcertCrawler();
     }
 
-    public void woraklsConcertNewsFetcherr() {
+    public void monolinkConcertCrawler() {
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.songkick.com/artists/8286163-worakls/calendar");
+        listOfPendingUrls.add("https://www.songkick.com/artists/8286163-monolink/calendar");
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
@@ -36,8 +36,8 @@ public class WoraklsConcertNewsFetcher extends ConsoleProgram {
 
         String dayDateFormat = createDateToday();
 
-        File tourDatesData = new File( "worakls " + dayDateFormat + ".txt");
-        File tourData = new File("worakstourdata.html");
+        File tourDatesData = new File( "monolinkTourDates " + dayDateFormat + ".txt");
+        File tourData = new File("monolinkTourData.txt");
         int count = 0;
         try {
             Scanner input = new Scanner(tourDatesData);

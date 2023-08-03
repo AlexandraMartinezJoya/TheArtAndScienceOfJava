@@ -26,10 +26,6 @@ public class CreateDiamond extends GraphicsProgram {
 
     }
 
-    private final double TRAPEZOID_BASE = 120;
-    private final double TRAPEZOID_TOP = 100;
-    private final double TRAPEZOID_EDGE = 60;
-
     private final double DIAMOND_WIDTH = 80;
     private final double DIAMOND_HEIGHT = 120;
 }

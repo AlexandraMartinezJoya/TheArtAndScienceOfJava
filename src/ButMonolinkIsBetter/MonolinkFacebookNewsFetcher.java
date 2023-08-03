@@ -1,11 +1,4 @@
-package FoundFrequencies; /**
- *
- * File: EarthImage.java
- * --------------------------------
- * This program displays an image of the earth from space
- * The image appears through the courtesy of NASA/JPL-Caltech
- */
-
+package ButMonolinkIsBetter;
 
 import acm.program.ConsoleProgram;
 
@@ -16,18 +9,15 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-
-public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
+public class MonolinkFacebookNewsFetcher extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=found+frequencies";
-        crawler(url);
+        getFacebookLatestNews();
     }
 
-    public void crawler(String startingUrl){
+    private void getFacebookLatestNews(){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/results?search_query=lost+frequencies");
-        listOfPendingUrls.add(startingUrl);
+        listOfPendingUrls.add("https://www.facebook.com/monolink");
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
@@ -45,7 +35,6 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
         }
     }
 
-
     public ArrayList<String> getSubUrls (String urlString){
         ArrayList<String> list = new ArrayList<>();
 
@@ -61,7 +50,7 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
             String dayDateFormat = createDateString(today, month, year);
 
 
-            File weatherToday = new File( "hameiVideos " + dayDateFormat + ".html");
+            File weatherToday = new File( "MonolinkFacebookPosts" + dayDateFormat + ".html");
             PrintWriter output = new PrintWriter(weatherToday);
             while(input.hasNext()) {
                 String line = input.nextLine();
@@ -88,6 +77,22 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
         return list;
     }
 
+
+    private void removeUglyHeader(){
+        //todo
+        //lines in total =
+        //lines minus ugly header ruining everything =
+        //read div 1. it actually has a class. apparently some horseman mounts his horse on his lazy loading server
+        //count divs to the one you need. get the links needed. move to dj-factory.space
+        //count how many divs you must go down they did server loading async just to :show :hide lol
+        //2 years later ... :D some code seems to be stolen from online movie industry ... i saw the same at netsky
+        //best thing we can do on fb is stories with stickers. their AR cavalery can put an image on a video with a song :D
+        //gj zuck, im sure you're worth being free online webspace.
+    }
+
+    private void getTicketingInfoFromFbLink(){
+        //todo
+    }
     private String getDay (String fullDate){
         return fullDate.substring(7, 10) + " " + fullDate.substring(0, 3) ;
     }

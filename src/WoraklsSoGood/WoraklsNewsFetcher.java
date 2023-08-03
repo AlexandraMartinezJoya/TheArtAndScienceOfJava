@@ -83,17 +83,16 @@ public class WoraklsNewsFetcher extends ConsoleProgram{
     }
 
     private String getDay (String fullDate){
-        return fullDate.substring(7, 10);
+        return fullDate.substring(7, 10) + " " + fullDate.substring(0, 3) ;
     }
     private String getYear(String fullDate){
         return fullDate.substring(25);
     }
     private String getMonth (String fullDate){
-        return fullDate.substring(0, 3);
+        return fullDate.substring(4, 7);
     }
     private String createDateString(String day, String month , String year){
-        String dateString = "";
-        dateString += day + "-"+ month + "-" + year;
+        String dateString =  day + "-"+ month + "-" + year;
         return dateString;
     }
 

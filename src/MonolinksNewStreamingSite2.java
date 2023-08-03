@@ -1,12 +1,3 @@
-package FoundFrequencies; /**
- *
- * File: EarthImage.java
- * --------------------------------
- * This program displays an image of the earth from space
- * The image appears through the courtesy of NASA/JPL-Caltech
- */
-
-
 import acm.program.ConsoleProgram;
 
 import java.io.File;
@@ -16,18 +7,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-
-public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
+public class MonolinksNewStreamingSite2 extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=found+frequencies";
-        crawler(url);
+
+        getLiveStreamMusicNews();
+
     }
 
-    public void crawler(String startingUrl){
+    private void getLiveStreamMusicNews(){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/results?search_query=lost+frequencies");
-        listOfPendingUrls.add(startingUrl);
+       listOfPendingUrls.add("https://www.songkick.com/");
+       listOfPendingUrls.add("https://brianamacwilliam.com/https://brianamacwilliam.com/");
+       listOfPendingUrls.add("https://brianamacwilliam.com/https://brianamacwilliam.com/blog");
+        listOfPendingUrls.add("www.cursdepuericultura.ro");
+       listOfPendingUrls.add("drirenalexoi.ro");
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
@@ -45,7 +39,6 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
         }
     }
 
-
     public ArrayList<String> getSubUrls (String urlString){
         ArrayList<String> list = new ArrayList<>();
 
@@ -61,13 +54,13 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
             String dayDateFormat = createDateString(today, month, year);
 
 
-            File weatherToday = new File( "hameiVideos " + dayDateFormat + ".html");
-            PrintWriter output = new PrintWriter(weatherToday);
+            File behanceFile = new File( "MonolinkNewArtOfTheDayGenerator" + dayDateFormat + ".html");
+            File artLinksFile = new File ("ArtLinksToday" + dayDateFormat + ".txt");
+            PrintWriter output = new PrintWriter(behanceFile);
             while(input.hasNext()) {
                 String line = input.nextLine();
-
                 println(line +"\n");
-
+                //not sure we need this bit unless planning to expand for multiple files so going to leave this code here for now
                 current = line.indexOf("Http:", current);
                 output.print(line + "\n");
                 while (current > 0){
@@ -87,6 +80,34 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
         }
         return list;
     }
+
+    private String getArtLinks( String rawHtml) {
+//        try {
+//            Date day = new Date();
+//            String formattedToday = day.toString();
+//            String year =  getYear(formattedToday);
+//            String today = getDay(formattedToday);
+//            String month = getMonth(formattedToday);
+//            String dayDateFormat = createDateString(today, month, year);
+//
+//            File behanceFile = new File( "MonolinkNewArtOfTheDayGenerator" + dayDateFormat + ".html");
+//            Scanner input = new Scanner(maleNameStatistics);
+//            PrintWriter writer = new PrintWriter(boyFirstNameList);
+//            while(input.hasNext()) {
+//                String nextRawHtml = input.nextLine();
+//                String imageLink = getFirstName(nextRawHtml);
+//                writer.print(boyFirstName+"\n");
+//                println(boyFirstName);
+//            }
+//            writer.close();
+//            input.close();
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
+
+        return "";
+    }
+
 
     private String getDay (String fullDate){
         return fullDate.substring(7, 10) + " " + fullDate.substring(0, 3) ;

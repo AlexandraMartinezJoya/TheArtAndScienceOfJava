@@ -10,7 +10,7 @@ public class MegaNeonCrow extends GraphicsProgram {
     RandomGenerator rgen = RandomGenerator.getInstance();
 
     public void run() {
-        Crow crow = new Crow();
+        drawCrow crow = new drawCrow();
 
         crow.setFillColor(rgen.nextColor());
         pause(PAUSE_TIME);

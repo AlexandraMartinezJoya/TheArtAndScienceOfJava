@@ -1,5 +1,4 @@
-package FoundFrequencies; /**
- *
+package WoraklsSoGood;/* *
  * File: EarthImage.java
  * --------------------------------
  * This program displays an image of the earth from space
@@ -17,7 +16,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 
-public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
+public class FindMeGoodWeather extends ConsoleProgram {
 
     public void run(){
         String url = "https://www.google.com/search?q=found+frequencies";
@@ -26,11 +25,17 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
 
     public void crawler(String startingUrl){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/results?search_query=lost+frequencies");
-        listOfPendingUrls.add(startingUrl);
-
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Timisoara&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Brussels&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=London&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Amsterdam&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Stockholm&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Copenhagen&appid=97d9b1254938da07cc4c1565100f4f97");
+        listOfPendingUrls.add("https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=97d9b1254938da07cc4c1565100f4f97");
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
+        listOfPendingUrls.add(startingUrl);
         while(!listOfPendingUrls.isEmpty() && listOfTraversedUrls.size() <= 100){
             String urlString = listOfPendingUrls.remove(0);
             if(!listOfTraversedUrls.contains(urlString)){
@@ -61,7 +66,7 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
             String dayDateFormat = createDateString(today, month, year);
 
 
-            File weatherToday = new File( "hameiVideos " + dayDateFormat + ".html");
+            File weatherToday = new File( "Weather " + dayDateFormat + ".txt");
             PrintWriter output = new PrintWriter(weatherToday);
             while(input.hasNext()) {
                 String line = input.nextLine();

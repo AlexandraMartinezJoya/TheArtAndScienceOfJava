@@ -1,0 +1,934 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="google-site-verification" content="zx76jZJ5vLEImdzmHRfa_rmRl5tLM1PCUIpzawwVxO0" />
+
+        <meta property="og:image" content="/shared/static/ve4bcdf7//common/css/default_theme/images/logo_header.png" />
+        <meta property="og:description" content="Build, explore and research to increase your power. Deploy your armies, thieves and powerful magic to combat your opponents and bring them to their knees. Work with your team mates to maximize our kingdom's glory." />
+        <meta property="og:title" content="The World's longest-running MMORPG game." />
+        <meta property="og:url" content="https://utopia-game.com" />
+        <meta property="og:site_name" content="Utopia Game" />
+        <meta property="fb:app_id" content="398634356870956" />
+
+        <title>
+            Utopia
+            -
+            Home
+        </title>
+        <link rel="shortcut icon" href="/shared/static/ve4bcdf7/common/images/fav_icon.png" />
+        
+            <!-- STYLE SHEETS -->
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/reset.css" />
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/introjs.css" />
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/external/jquery-jgrowl/jquery.jgrowl.css">
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/layout.css" />
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/uniform.default.css" />
+            <link rel="Stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/ui-lightness/jquery-ui-1.8.21.custom.css"/>
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/external/jquery-wysiwyg/jquery.wysiwyg.css">
+            <style>
+              .customDefault { 
+                color: black;
+              }
+              .customDefault .introjs-skipbutton {
+                border-radius: 0;
+                color: red;
+              }
+            </style>
+            
+    <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/frontpage.css" />
+
+        
+
+            <link rel="stylesheet" type="text/css" href="/shared/static/ve4bcdf7/common/css/default_theme//theme.css" />
+        
+
+        
+
+        
+            <!-- SCRIPTS -->
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/jquery-1.8.1.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/jquery-ui-1.8.21.custom.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/jquery-plugins.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/utils.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/django_jquery_ajax.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/account_options.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/jquery.uniform.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/feedback.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/jquery.tools.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/common/js/intro.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/external/jquery-c/cc.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/external/jquery-c/swfobject-2.2.min.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/external/jquery-wysiwyg/jquery.wysiwyg.js"></script>
+            <script type="text/javascript" src="/shared/static/ve4bcdf7/external/jquery-jgrowl/jquery.jgrowl.min.js"></script>
+        
+
+        
+        <script type="text/javascript">
+            function setupJWYSIWYG() {
+                // Style any formatted comments on the page.
+                $('textarea.formatted-text').wysiwyg({
+                    'controls': {
+                        'justifyLeft': {'visible': false},
+                        'justifyCenter': {'visible': false},
+                        'justifyRight': {'visible': false},
+                        'justifyFull': {'visible': false},
+                        'indent': {'visible': false},
+                        'outdent': {'visible': false},
+                        'undo': {'visible': false},
+                        'redo': {'visible': false},
+                        'insertHorizontalRule': {'visible': false},
+                        'insertImage': {'visible': false},
+                        'h1': {'visible': true},
+                        'h2': {'visible': false},
+                        'h3': {'visible': false},
+                        'paragraph': {'visible': false},
+                        'increaseFontSize': {'visible': false},
+                        'decreaseFontSize': {'visible': false},
+                        'html': {'visible': false},
+                        'insertTable': {'visible': false},
+                        'createLink': {'visible': false},
+                        'code': {'visible': false},
+                        'removeFormat': {'visible': false},
+                        'strikeThrough': {'visible': false},
+                        'subscript': {'visible': false},
+                        'superscript': {'visible': false}
+                    },
+                    'css': '/shared/static/ve4bcdf7/common/css/default_theme//theme.css',
+                    'initialContent': '',
+                    'iFrameClass': 'formatted-comment',
+                    'autoSave': true
+                });
+            }
+
+            $(document).ready(function(eventObject) {
+                // Setup any editable text areas.
+                
+                    setupJWYSIWYG();
+                
+
+                // Setup triggers that open overlays/lightboxes
+                var overlay_params = {
+                    mask: {
+                        color: '#000000',
+                        loadSpeed: 200,
+                        opacity: 0.5
+                    }
+                };
+                $(".overlay-trigger[rel]").overlay(overlay_params);
+                // Setup uniform form styling.
+                $("select, input:checkbox, input:radio, input:file").uniform();
+
+                // Catch clicks on shop login links
+                $(".shop-login-link").click(function() {
+                    $("#id-shop-login-form").submit();
+                });
+
+                
+                    var ec = new CC({media_path:'/shared/static/ve4bcdf7/external/jquery-c/'});
+                    ec.get("eclientid", function(value){
+                        if (typeof value == 'undefined'){
+                            value = getCookie('clientid');
+                            ec.set("eclientid", value);
+                        }
+                        else {
+                            setCookie('clientid',value);
+                        }
+                    });
+                
+            });
+        </script>
+        <script type="text/javascript">
+            function munkbot(){
+                //load munkbot domain into a cookie
+                var munkbot_domain = prompt("Please enter the xxxx.umunk.net, only the subdomain, e.g. mykd if url is mykd.umunk.net", "");
+
+                if (munkbot_domain) {
+                    localStorage.setItem("munkbot", munkbot_domain);
+                    localStorage.setItem("munkbot_auto", "0");
+                } else {
+                    localStorage.setItem("munkbot", "");
+                    localStorage.setItem("munkbot_auto", "0");
+                    window.location.reload(false); 
+                }
+            }
+
+            function disable_munkbot(){
+                localStorage.setItem("munkbot", "");
+                localStorage.setItem("munkbot_auto", "0");
+                window.location.reload(false); 
+            }
+
+            function auto_munkbot(value){
+                localStorage.setItem("munkbot_auto", value);
+                window.location.reload(false); 
+            }
+             
+            var munkbot_domain = true;
+            var munkbot_domain_auto = true;
+            $(document).ready(function(eventObject) {
+                
+            });
+
+            function load_munkbot() {
+
+              var script2 = document.createElement("script");
+              var d = new Date();
+              var curr_hour = d.getHours();
+              var curr_min = d.getMinutes();
+              var curr_date = d.getDate();
+              var curr_month = d.getMonth();
+              var curr_year = d.getFullYear();
+
+              var n = curr_year+ "" + curr_month+ "" + curr_date+ "" + curr_hour + "" + curr_min; 
+              
+              script2.setAttribute("src", "//intel.utopia-game.com/stable.js?n="+n);
+              document.body.appendChild(script2);
+
+            }
+        </script>
+
+        <script type="text/javascript">
+            function customintel(){
+                var custom_kdsite = prompt("Enter where to send intel", "");
+                var custom_kdsite_key = prompt("Provide key (if required)", "");
+
+                if (custom_kdsite) {
+                    localStorage.setItem("custom_kdsite", custom_kdsite);
+                    localStorage.setItem("custom_kdsite_key", custom_kdsite_key);
+                } else {
+                    localStorage.setItem("custom_kdsite", "");
+                    window.location.reload(false); 
+                }
+            }
+
+            function disable_custom_kdsite(){
+                localStorage.setItem("custom_kdsite", "");
+                localStorage.setItem("custom_kdsite_key", "");
+                window.location.reload(false); 
+            }
+
+            function getBodyText(win) {
+                var doc = win.document,
+                    body = doc.body,
+                    selection, range, bodyText;
+                if (body.createTextRange) {
+                    return body.createTextRange().text;
+                } else if (win.getSelection) {
+                    selection = win.getSelection();
+                    selection.removeAllRanges();
+                    range = doc.createRange();
+                    referenceNode = document.getElementsByClassName("game-content")[0];
+                    range.selectNodeContents(referenceNode); //body
+                    selection.addRange(range);
+                    bodyText = selection.toString();
+                    selection.removeAllRanges();
+                    return bodyText;
+                }
+            }
+             
+            var custom_intel_storage_url = localStorage.getItem("custom_kdsite");
+            var custom_intel_storage_url_key = localStorage.getItem("custom_kdsite_key");
+            $(document).ready(function(eventObject) {
+                
+            });
+        </script>
+
+        <!-- GDPR Consentment Banner DEPRECATED 8/2020 -->
+<!--         <script type="text/javascript" async=true >
+            var elem = document.createElement('script');
+            elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+            elem.async = true;
+            elem.type = "text/javascript";
+            var scpt = document.getElementsByTagName('script')[0];
+            scpt.parentNode.insertBefore(elem, scpt);
+            (function() {
+            var gdprAppliesGlobally = false;
+            function addFrame() {
+                if (!window.frames['__cmpLocator']) {
+                if (document.body) {
+                    var body = document.body,
+                        iframe = document.createElement('iframe');
+                    iframe.style = 'display:none';
+                    iframe.name = '__cmpLocator';
+                    body.appendChild(iframe);
+                } else {
+                    setTimeout(addFrame, 5);
+                }
+                }
+            }
+            addFrame();
+            function cmpMsgHandler(event) {
+                var msgIsString = typeof event.data === "string";
+                var json;
+                if(msgIsString) {
+                json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+                } else {
+                json = event.data;
+                }
+                if (json.__cmpCall) {
+                var i = json.__cmpCall;
+                window.__cmp(i.command, i.parameter, function(retValue, success) {
+                    var returnMsg = {"__cmpReturn": {
+                    "returnValue": retValue,
+                    "success": success,
+                    "callId": i.callId
+                    }};
+                    event.source.postMessage(msgIsString ?
+                    JSON.stringify(returnMsg) : returnMsg, '*');
+                });
+                }
+            }
+            window.__cmp = function (c) {
+                var b = arguments;
+                if (!b.length) {
+                return __cmp.a;
+                }
+                else if (b[0] === 'ping') {
+                b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+                    "cmpLoaded": false}, true);
+                } else if (c == '__cmp')
+                return false;
+                else {
+                if (typeof __cmp.a === 'undefined') {
+                    __cmp.a = [];
+                }
+                __cmp.a.push([].slice.apply(b));
+                }
+            }
+            window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+            window.__cmp.msgHandler = cmpMsgHandler;
+            if (window.addEventListener) {
+                window.addEventListener('message', cmpMsgHandler, false);
+            }
+            else {
+                window.attachEvent('onmessage', cmpMsgHandler);
+            }
+            })();
+            window.__cmp('init', {
+                    'Language': 'en',
+                'Initial Screen Body Text Option': 1,
+                'Publisher Name': 'Moneytizer',
+                'Default Value for Toggles': 'on',
+                'UI Layout': 'banner',
+                'No Option': false,
+            });
+        </script>
+            <style>
+                .qc-cmp-button,
+                .qc-cmp-button.qc-cmp-secondary-button:hover {
+                    background-color: #000000 !important;
+                    border-color: #000000 !important;
+                }
+                .qc-cmp-button:hover,
+                .qc-cmp-button.qc-cmp-secondary-button {
+                    background-color: transparent !important;
+                    border-color: #000000 !important;
+                }
+                .qc-cmp-alt-action,
+                .qc-cmp-link {
+                    color: #000000 !important;
+                }
+                .qc-cmp-button,
+                .qc-cmp-button.qc-cmp-secondary-button:hover {
+                    color: #ffffff !important;
+                }
+                .qc-cmp-button:hover,
+                .qc-cmp-button.qc-cmp-secondary-button {
+                    color: #000000 !important;
+                }
+                .qc-cmp-small-toggle,
+                .qc-cmp-toggle {
+                    background-color: #000000 !important;
+                    border-color: #000000 !important;
+                }
+                .qc-cmp-main-messaging,
+                .qc-cmp-messaging,
+                .qc-cmp-sub-title,
+                .qc-cmp-privacy-settings-title,
+                .qc-cmp-purpose-list,
+                .qc-cmp-tab,
+                .qc-cmp-title,
+                .qc-cmp-vendor-list,
+                .qc-cmp-vendor-list-title,
+                .qc-cmp-enabled-cell,
+                .qc-cmp-toggle-status,
+                .qc-cmp-table,
+                .qc-cmp-table-header {
+                    color: #000000 !important;
+                }
+                
+                .qc-cmp-ui {
+                    background-color: #ffffff !important;
+                }
+
+                .qc-cmp-table,
+                .qc-cmp-table-row {
+                      border: 1px solid !important;
+                      border-color: #000000 !important;
+                } 
+            #qcCmpButtons a {
+                    text-decoration: none !important;
+
+            }
+            
+            #qcCmpButtons button {
+                margin-top: 65px;
+            }
+            
+            
+          @media screen and (min-width: 851px) {
+            #qcCmpButtons a {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 60px;
+            }
+          }
+          .qc-cmp-qc-link-container{
+            display:none;
+          }
+            </style> -->
+        <!-- End GDPR Consentment Banner DEPRECATED 8/2020 -->
+
+        <!-- START GDPR Consentment Banner UPDATED 8/2020 -->
+        <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+        <script type="text/javascript" async="true">
+        (function() {
+            var host = window.location.hostname;
+            var element = document.createElement('script');
+            var firstScript = document.getElementsByTagName('script')[0];
+            var url = 'https://quantcast.mgr.consensu.org'
+                .concat('/choice/', '6Fv0cGNfc_bw8', '/', host, '/choice.js')
+            var uspTries = 0;
+            var uspTriesLimit = 3;
+            element.async = true;
+            element.type = 'text/javascript';
+            element.src = url;
+
+            firstScript.parentNode.insertBefore(element, firstScript);
+
+            function makeStub() {
+                var TCF_LOCATOR_NAME = '__tcfapiLocator';
+                var queue = [];
+                var win = window;
+                var cmpFrame;
+
+                function addFrame() {
+                    var doc = win.document;
+                    var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                    if (!otherCMP) {
+                        if (doc.body) {
+                            var iframe = doc.createElement('iframe');
+
+                            iframe.style.cssText = 'display:none';
+                            iframe.name = TCF_LOCATOR_NAME;
+                            doc.body.appendChild(iframe);
+                        } else {
+                            setTimeout(addFrame, 5);
+                        }
+                    }
+                    return !otherCMP;
+                }
+
+                function tcfAPIHandler() {
+                    var gdprApplies;
+                    var args = arguments;
+
+                    if (!args.length) {
+                        return queue;
+                    } else if (args[0] === 'setGdprApplies') {
+                        if (
+                            args.length > 3 &&
+                            args[2] === 2 &&
+                            typeof args[3] === 'boolean'
+                        ) {
+                            gdprApplies = args[3];
+                            if (typeof args[2] === 'function') {
+                                args[2]('set', true);
+                            }
+                        }
+                    } else if (args[0] === 'ping') {
+                        var retr = {
+                            gdprApplies: gdprApplies,
+                            cmpLoaded: false,
+                            cmpStatus: 'stub'
+                        };
+
+                        if (typeof args[2] === 'function') {
+                            args[2](retr);
+                        }
+                    } else {
+                        queue.push(args);
+                    }
+                }
+
+                function postMessageEventHandler(event) {
+                    var msgIsString = typeof event.data === 'string';
+                    var json = {};
+
+                    try {
+                        if (msgIsString) {
+                            json = JSON.parse(event.data);
+                        } else {
+                            json = event.data;
+                        }
+                    } catch (ignore) {}
+
+                    var payload = json.__tcfapiCall;
+
+                    if (payload) {
+                        window.__tcfapi(
+                            payload.command,
+                            payload.version,
+                            function(retValue, success) {
+                                var returnMsg = {
+                                    __tcfapiReturn: {
+                                        returnValue: retValue,
+                                        success: success,
+                                        callId: payload.callId
+                                    }
+                                };
+                                if (msgIsString) {
+                                    returnMsg = JSON.stringify(returnMsg);
+                                }
+                                event.source.postMessage(returnMsg, '*');
+                            },
+                            payload.parameter
+                        );
+                    }
+                }
+
+                while (win) {
+                    try {
+                        if (win.frames[TCF_LOCATOR_NAME]) {
+                            cmpFrame = win;
+                            break;
+                        }
+                    } catch (ignore) {}
+
+                    if (win === window.top) {
+                        break;
+                    }
+                    win = win.parent;
+                }
+                if (!cmpFrame) {
+                    addFrame();
+                    win.__tcfapi = tcfAPIHandler;
+                    win.addEventListener('message', postMessageEventHandler, false);
+                }
+            };
+
+            if (typeof module !== 'undefined') {
+                module.exports = makeStub;
+            } else {
+                makeStub();
+            }
+
+            var uspStubFunction = function() {
+                var arg = arguments;
+                if (typeof window.__uspapi !== uspStubFunction) {
+                    setTimeout(function() {
+                        if (typeof window.__uspapi !== 'undefined') {
+                            window.__uspapi.apply(window.__uspapi, arg);
+                        }
+                    }, 500);
+                }
+            };
+
+            var checkIfUspIsReady = function() {
+                uspTries++;
+                if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                    console.warn('USP is not accessible');
+                } else {
+                    clearInterval(uspInterval);
+                }
+            };
+
+            if (typeof window.__uspapi === 'undefined') {
+                window.__uspapi = uspStubFunction;
+                var uspInterval = setInterval(checkIfUspIsReady, 6000);
+            }
+        })();
+        </script>
+        <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+
+
+
+        
+        <!-- UA -->
+<script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-89346517-2', {
+        
+            
+        
+    });
+    
+    
+        ga('send', 'pageview');
+    
+</script>
+        
+        
+    <script type="text/javascript">
+        $(document).ready(function(eventObject) {
+            $('#id_username').focus();
+        });
+    </script>
+
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="513405286051-h0i3vss9vntac0m3al1b2oq9c2fdn6mk.apps.googleusercontent.com">
+    <script type="text/javascript">
+            
+        function onSignIn(googleUser) {
+          var profile = googleUser.getBasicProfile();
+          var id_token = googleUser.getAuthResponse().id_token;
+          console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+          console.log('Name: ' + profile.getName());
+          console.log('Image URL: ' + profile.getImageUrl());
+          console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+
+          var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/shared/social_login/');
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function() {
+              console.log('Signed in as: ' + xhr.responseText);
+              // location.reload();
+              window.location.href = '/'; //relative to domain
+            };
+            xhr.send('social=google&csrfmiddlewaretoken=RsHo2nne7Y1Mwvhh15YurK7GbIuucN8f&idtoken=' + id_token);
+        }
+
+        window.onbeforeunload = function(e){
+          gapi.auth2.getAuthInstance().signOut();
+        };
+
+    </script>
+
+    <script>
+      // This is called with the results from from FB.getLoginStatus().
+      function statusChangeCallback(response) {
+        console.log('statusChangeCallback');
+        console.log(response);
+        // The response object is returned with a status field that lets the
+        // app know the current login status of the person.
+        // Full docs on the response object can be found in the documentation
+        // for FB.getLoginStatus().
+        if (response.status === 'connected') {
+            var uid = response.authResponse.userID;
+            var accessToken = response.authResponse.accessToken;
+            console.log(uid,accessToken);
+          // Logged into your app and Facebook.
+        
+          testAPI(accessToken);
+        } 
+      }
+
+      // Here we run a very simple test of the Graph API after login is
+      // successful.  See statusChangeCallback() for when this call is made.
+      function testAPI() {
+        console.log('Welcome!  Fetching your information.... ');
+        var url = '/me?fields=id,name,email';
+        FB.api(url, function(response) {
+             console.log(response.name + " " + response.id + " " +response.email);
+        }, {scope: 'email'});
+      }
+      // // This function is called when someone finishes with the Login
+      // // Button.  See the onlogin handler attached to it in the sample
+      // // code below.
+        function checkLoginState() {
+            FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+                if (response.status === 'connected') {
+                    var accessToken = response.authResponse.accessToken;
+                    console.log('sending to backend!')
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', '/shared/social_login/');
+                    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                    xhr.onload = function() {
+                      console.log('Signed in as: ' + xhr.responseText);
+                      // location.reload();
+                      window.location.href = '/'; //relative to domain
+                    };
+                    xhr.send('social=facebook&csrfmiddlewaretoken=RsHo2nne7Y1Mwvhh15YurK7GbIuucN8f&idtoken=' + accessToken);
+            }
+                
+                console.log('Welcome CHECKING!  Fetching your information.... ');
+                var url = '/me?fields=id,name,email';
+                FB.api(url, function(response) {
+                     // alert(response.name + " " + response.id + " " +response.email);
+                }, {scope: 'email'});
+            });
+        }
+
+      window.fbAsyncInit = function() {
+      FB.init({
+          appId      : '1586222584786457',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v2.8'
+      });
+
+      };
+
+      // Load the SDK asynchronously
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=290353794313083";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+    </script>
+
+    
+<!--     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+       function YourOnSubmitFn(token) {
+         document.getElementById("signInForm").submit();
+       }
+    </script> -->
+
+    </head>
+
+        <!--Start of Tawk.to Script-->
+<!--      
+
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5a5a7e36d7591465c706b8f2/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+
+     
+ -->
+        <!--End of Tawk.to Script-->
+    <body>
+
+        
+        <!-- Facebook like API follows. -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
+            <div id="outer-container">
+                <div id="inner-container">
+                    
+                        
+                            <div id="header">
+                                
+                                <div id="header-navigation">
+                                    
+                                        <div class="navigation"><a href="http://forums.utopia-game.com/forumdisplay.php?1527-Utopia" target="_blank">Forum</a></div>
+                                        <div class="navigation"><a href="http://wiki.utopia-game.com/index.php?title=Game_Rules" target="_blank">Rules</a></div>
+                                        <div class="navigation"><a href="https://utopia-game-store.myshopify.com/" target="_blank">Merch</a></div>
+                                    
+                                    <div class="navigation"><a href="http://wiki.utopia-game.com/" target="_blank">Wiki</a></div>
+                                    <div class="navigation"><a href="http://blog.utopia-game.com/" target="_blank">Blog</a></div>
+                                </div>
+
+                                    <div id="header-navigation-2nd-level">
+                                        
+                                    </div>
+                                
+                            </div>
+                        
+                    
+
+                    <div id="middle">
+                        <div id="left-column">
+
+                                
+                                    
+                                        
+                                    
+                                
+
+                            <div id="content-area">
+                                
+    
+                                
+    <div id="about">
+        <div id="frontpage-logo"></div>
+        <p>
+            <h2>Strategy</h2>Build, explore and research to increase your power. Then use armies, thieves and powerful magic to combat your opponents and bring them to their knees.</p><p><h2>Teamwork</h2>In Utopia a good team is stronger than the sum of its parts. Complement the skills of your team mates to maximize your kingdom's glory.</p><p><h2>Free and in your browser</h2>Utopia is free to play, no downloads are required and you don't need to be online all the time to succeed.
+        </p>
+
+    </div>
+    <div class="divider"></div>
+    <div id="news">
+        <h1>Announcements</h1>
+        
+            <div class="blog-entry">
+                <h2>9 Dec: <a href="https://blog.utopia-game.com/post/670082141320839168">MUGA Gaming Store!</a></h2>
+            </div>
+        
+            <div class="blog-entry">
+                <h2>18 Sep: <a href="https://blog.utopia-game.com/post/662656901708972032">Warcast with David C</a></h2>
+            </div>
+        
+            <div class="blog-entry">
+                <h2>1 Aug: <a href="https://blog.utopia-game.com/post/658354835312230400">Genesis: Age of Simplicity</a></h2>
+            </div>
+        
+            <div class="blog-entry">
+                <h2>19 Jun: <a href="https://blog.utopia-game.com/post/654429523817922560">World of Legends: Age of Ancestry</a></h2>
+            </div>
+        
+        <div class="news-more">
+            <h2><a href="http://blog.utopia-game.com">more...</a></h2>
+        </div>
+    </div>
+
+                            </div>
+                        </div>
+                        <div id="right-column">
+                            
+    <div id="login">
+
+        
+        <form method="post" id="signInForm" action="/shared/login/">
+            <div class="form-heading"><h1>Log In</h1></div>
+            <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='RsHo2nne7Y1Mwvhh15YurK7GbIuucN8f' /></div>
+            <table>
+                <tr><th><label for="id_username">Username:</label></th><td><input id="id_username" type="text" name="username" maxlength="30" /></td></tr>
+<tr><th><label for="id_password">Password:</label></th><td><input type="password" name="password" id="id_password" /></td></tr>
+            </table>
+            
+
+            <div id="login-links">
+                <p><a href="/shared/password_forgotten/">Forgot your password?</a></p>
+            </div>
+            <input  class="g-recaptcha" data-sitekey="6Lf6qhkUAAAAAFUNMXJR9urB_9x-tyKvcgPbfJgp" data-callback="YourOnSubmitFn" type="submit" class="button" value="Log In" />
+
+            <div id="social-login">
+                <fb:login-button size="large" scope="public_profile,email" onlogin="checkLoginState();">
+                  Log In
+                </fb:login-button>
+                <div class="myfb_button">
+                    <div class="g-signin2" data-width="74" data-height="22" data-onsuccess="onSignIn"></div>
+                </div>
+            </div>
+
+        </form>
+        
+        <form action="">
+            <div class="form-heading"><h2> 236 Players Online</h2></div>
+            <div style="clear: both;"></div>
+        </form>
+        
+            
+        <form action="">
+            <div class="form-heading"><h1>Sign up for free</h1></div>
+
+                <a href="/shared/signup/" class="button-link" style="margin-right: 20%; padding-right: 25px; padding-left: 25px; padding-top: 7px; padding-bottom: 7px">Sign Up Now</a>
+
+            <div id="social-signup">
+                <fb:login-button style="margin-top: 10px" size="large" scope="public_profile,email" onlogin="checkLoginState();">
+
+                  Sign Up
+                </fb:login-button>
+                <div class="myfb_button">
+                    <div class="g-signin2" data-width="74" data-height="22" data-onsuccess="onSignIn"></div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </form>
+
+        <div id="facebook-like">
+            <div class="fb-like" data-href="http://www.facebook.com/pages/Utopia-Game/149314088438349" data-send="true" data-width="275" data-show-faces="false" data-colorscheme="dark" data-font="trebuchet ms"></div>
+        </div>
+
+        <div id="tweets">
+            <!-- <h1>On Twitter</h1> -->
+            
+            <a class="twitter-timeline"
+              href="https://twitter.com/utopiaclassic"
+              data-chrome="nofooter noborders transparent" data-theme='dark' data-height="300">
+            Tweets by @utopiaclassic
+            </a>
+            <div class="twitter-more">
+                <h2><a href="https://twitter.com/#!/UtopiaClassic">more...</a></h2>
+            </div>
+        </div>
+    </div>
+
+
+                        </div>
+
+                        
+                    </div>
+
+                    <div id="footer">
+                        <div id="version">
+                            Copyright 2021 MUGA Gaming, LLC - 
+                            
+                            <a href="mailto:UtopiaSupport@Utopia-Game.com " target="_top">Contact Support</a>
+                            
+                            <br> Version: e4bcdf7
+                        </div>
+                    </div>
+
+                </div> <!--Close inner-container -->
+            </div> <!--Close outer-container -->
+        
+
+        <!-- Extra HTML -->
+        <div class="overlay" id="report-content-dialog">
+    <h1>Report Content</h1>
+    <div class="report-dialog-content">
+        <p>You are about to report that the content below is in breach of the <a href="http://wiki.utopia-game.com/index.php?title=Game_Rules#Language_.26_Attitude">Code of Conduct</a>. This is a serious allegation, which may result in disciplinary action against the player that uploaded it.</p><p><strong>WARNING: Falsely reporting content is also considered an offense, and may result in your account being suspended, or worse.</strong></p>
+        <div class="reported-content"></div>
+        <input class="button-link" type="submit" value="Report this content"></input>
+    </div>
+    <div class="spinner"></div>
+</div>
+<div style="display:none" id="report-this-label">Report this</div>
+<div style="display:none" id="report-this-url">/shared/feedback/report_content/</div>
+
+        
+
+        <div id="recruitment-chat">
+            
+        </div>
+        
+    </body>
+</html>

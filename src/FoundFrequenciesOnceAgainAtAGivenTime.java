@@ -1,4 +1,4 @@
-package FoundFrequencies; /**
+/**
  *
  * File: EarthImage.java
  * --------------------------------
@@ -17,16 +17,16 @@ import java.util.Date;
 import java.util.Scanner;
 
 
-public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
+public class FoundFrequenciesOnceAgainAtAGivenTime extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=found+frequencies";
+        String url = "https://www.google.com/search?q=monolink";
         crawler(url);
     }
 
     public void crawler(String startingUrl){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/results?search_query=lost+frequencies");
+        listOfPendingUrls.add("https://www.youtube.com/");
         listOfPendingUrls.add(startingUrl);
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
@@ -61,7 +61,7 @@ public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
             String dayDateFormat = createDateString(today, month, year);
 
 
-            File weatherToday = new File( "hameiVideos " + dayDateFormat + ".html");
+            File weatherToday = new File( "FoundFrequenciesNewTopicChannel " + dayDateFormat + ".html");
             PrintWriter output = new PrintWriter(weatherToday);
             while(input.hasNext()) {
                 String line = input.nextLine();

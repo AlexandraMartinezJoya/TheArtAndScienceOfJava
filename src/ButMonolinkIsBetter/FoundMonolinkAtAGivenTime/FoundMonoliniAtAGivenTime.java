@@ -1,4 +1,4 @@
-package FoundFrequencies; /**
+package ButMonolinkIsBetter.FoundMonolinkAtAGivenTime; /**
  *
  * File: EarthImage.java
  * --------------------------------
@@ -17,16 +17,16 @@ import java.util.Date;
 import java.util.Scanner;
 
 
-public class FoundFrequenciesAtAGivenTime extends ConsoleProgram {
+public class FoundMonoliniAtAGivenTime extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=found+frequencies";
+        String url = "https://www.google.com/search?q=monolink";
         crawler(url);
     }
 
     public void crawler(String startingUrl){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/results?search_query=lost+frequencies");
+        listOfPendingUrls.add("https://www.youtube.com/results?search_query=monolinik");
         listOfPendingUrls.add(startingUrl);
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();

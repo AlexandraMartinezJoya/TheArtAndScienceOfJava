@@ -19,8 +19,8 @@ public class ParseDataFromCustomFile extends ConsoleProgram {
             Scanner input = new Scanner(maleNameStatistics);
             PrintWriter writer = new PrintWriter(boyFirstNameList);
             while(input.hasNext()) {
-                String line = input.nextLine();
-                String boyFirstName = getBoyFirstName(line);
+                String boyName = input.nextLine();
+                String boyFirstName = getFirstName(boyName);
                 writer.print(boyFirstName+"\n");
                 println(boyFirstName);
             }
@@ -33,8 +33,8 @@ public class ParseDataFromCustomFile extends ConsoleProgram {
             Scanner input = new Scanner(femaleNameStatistics);
             PrintWriter writer = new PrintWriter(girlFirstNameList);
             while(input.hasNext()) {
-                String line = input.nextLine();
-                String girlFirstName = getBoyFirstName(line);
+                String girlName = input.nextLine();
+                String girlFirstName = getFirstName(girlName);
                 writer.print(girlFirstName+"\n");
                 println(girlFirstName);
             }
@@ -45,7 +45,7 @@ public class ParseDataFromCustomFile extends ConsoleProgram {
         }
     }
 
-    private String getBoyFirstName(String line){
+    private String getFirstName(String line){
         String name = "";
         if(line.contains("<TD WIDTH=135>")){
             name = line;
@@ -57,6 +57,7 @@ public class ParseDataFromCustomFile extends ConsoleProgram {
         }
         return name;
     }
+
 
     private String extractNameFromString(String partialLine){
         String name = "";
