@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ro-RO" class="no-js" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta charset="utf-8">
+	<title>Descoperă universul muzical al celeis1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="fb:app_id" content="241284008322">
+	<meta property="og:site_name" content="Deezer">
+
+    
+	<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon.a6a53d55264841165a904dbea19d5d73.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-16x16.526cde4edf20647be4ee32cdf35c1c13.png" rel="icon" sizes="16x16" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-32x32.42917d14a8cb0cc4045c827251b57c0e.png" rel="icon" sizes="32x32" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-48x48.92337504a99482504bbee02dce6997e1.png" rel="icon" sizes="48x48" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-96x96.852baf648e79894b668670e115e4a375.png" rel="icon" sizes="96x96" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-256x256.37ca2d4f52f47137b0517b2da0d85eee.png" rel="icon" sizes="256x256" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/apple-touch-icon.0faedc2a9ed312db04eb0361fb14a41a.png" rel="apple-touch-icon" sizes="180x180">
+
+	<meta property="og:title" content="celeis1">
+<meta property="og:description" content="Universul muzical al celeis1">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="http://www.deezer.com/profile/4500">
+<meta property="og:image" content="https://cdns-images.dzcdn.net/images/user/45cafcfbe4ec93e35fe66daa5cbb7ce1/120x120.jpg">
+<meta property="profile:username" content="celeis1">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdns-images.dzcdn.net/images/user/45cafcfbe4ec93e35fe66daa5cbb7ce1/120x120.jpg">
+<meta name="twitter:url" content="http://www.deezer.com/profile/4500">
+<meta name="twitter:title" content="celeis1">
+<meta name="twitter:description" content="Universul muzical al celeis1">
+<meta name="twitter:site" content="@deezer">
+<meta name="twitter:app:name:iphone" content="Deezer">
+<meta name="twitter:app:id:iphone" content="id292738169">
+<meta name="twitter:app:url:iphone" content="deezer://www.deezer.com/profile/4500">
+<meta name="twitter:app:name:ipad" content="Deezer">
+<meta name="twitter:app:id:ipad" content="id292738169">
+<meta name="twitter:app:url:ipad" content="deezer://www.deezer.com/profile/4500">
+<meta name="twitter:app:name:googleplay" content="Deezer">
+<meta name="twitter:app:id:googleplay" content="deezer.android.app">
+<meta name="twitter:app:url:googleplay" content="deezer://www.deezer.com/profile/4500">
+<meta name="robots" content="noindex,nofollow,noarchive">
+
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/npfkoakaabdallkcdbpkkhfilkkngakh">
+	<link rel="search" type="application/opensearchdescription+xml" href="https://e-cdn-files.dzcdn.net/xml/opensearch.xml" title="Deezer.com">
+	<link rel="alternate" hreflang="en" href="https://www.deezer.com/en/profile/4500">
+<link rel="alternate" hreflang="fr" href="https://www.deezer.com/fr/profile/4500">
+<link rel="alternate" hreflang="de" href="https://www.deezer.com/de/profile/4500">
+<link rel="alternate" hreflang="es-ES" href="https://www.deezer.com/es/profile/4500">
+<link rel="alternate" hreflang="it" href="https://www.deezer.com/it/profile/4500">
+<link rel="alternate" hreflang="nl" href="https://www.deezer.com/nl/profile/4500">
+<link rel="alternate" hreflang="pt" href="https://www.deezer.com/pt/profile/4500">
+<link rel="alternate" hreflang="ru" href="https://www.deezer.com/ru/profile/4500">
+<link rel="alternate" hreflang="pt-BR" href="https://www.deezer.com/br/profile/4500">
+<link rel="alternate" hreflang="pl" href="https://www.deezer.com/pl/profile/4500">
+<link rel="alternate" hreflang="tr" href="https://www.deezer.com/tr/profile/4500">
+<link rel="alternate" hreflang="ro" href="https://www.deezer.com/ro/profile/4500">
+<link rel="alternate" hreflang="hu" href="https://www.deezer.com/hu/profile/4500">
+<link rel="alternate" hreflang="sr" href="https://www.deezer.com/sr/profile/4500">
+<link rel="alternate" hreflang="ar" href="https://www.deezer.com/ar/profile/4500">
+<link rel="alternate" hreflang="hr" href="https://www.deezer.com/hr/profile/4500">
+<link rel="alternate" hreflang="es" href="https://www.deezer.com/mx/profile/4500">
+<link rel="alternate" hreflang="cs" href="https://www.deezer.com/cs/profile/4500">
+<link rel="alternate" hreflang="sk" href="https://www.deezer.com/sk/profile/4500">
+<link rel="alternate" hreflang="sv" href="https://www.deezer.com/sv/profile/4500">
+<link rel="alternate" hreflang="en-US" href="https://www.deezer.com/us/profile/4500">
+<link rel="alternate" hreflang="ja-JP" href="https://www.deezer.com/ja/profile/4500">
+<link rel="alternate" hreflang="bg" href="https://www.deezer.com/bg/profile/4500">
+<link rel="alternate" hreflang="da" href="https://www.deezer.com/da/profile/4500">
+<link rel="alternate" hreflang="fi" href="https://www.deezer.com/fi/profile/4500">
+<link rel="alternate" hreflang="sl" href="https://www.deezer.com/sl/profile/4500">
+<link rel="alternate" hreflang="uk" href="https://www.deezer.com/uk/profile/4500">
+<link rel="alternate" hreflang="x-default" href="https://www.deezer.com/en/profile/4500">
+
+	<!--[if gte IE 9]>
+	<meta name="application-name" content="Deezer">
+	<meta name="msapplication-tooltip" content="Porneşte aplicaţia Deezer">
+	<meta name="msapplication-window" content="width=1600;height=1200">
+	<meta name="msapplication-starturl" content="http://www.deezer.com/ro/">
+	<meta name="msapplication-navbutton-color" content="#202020">
+	<![endif]-->
+
+	<link href="https://e-cdn-files.dzcdn.net/cache/css/sass_c/app-web.554ca1597d873cc4a2d8.css" rel="stylesheet" type="text/css">
+	<script>
+if (window.self === window.top) {
+	document.domain = 'deezer.com';
+}
+</script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/runtime.42c01297e3c852cdaf38.js"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/legacy.5d696e6666776aee83fa.js"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/bocal-ro-RO.08dd0330eb5ec1d5bc92.js" defer="true"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/app-web.8e02c4b64b35fb4fe9b3.js" defer="true"></script>
+	
+		</head>
+<body class="dir-ltr">
+	<div id="dzr-app">
+		<div class="hidden" id="naboo_content">
+			<div id="page_profile">
+	<div id="page_profile_header">
+		<div data-seo="naboo/profile/header">
+			<header class="user-header naboo-display-seo">
+				<div class="user-avatar select">
+					<figure>
+						<button type="button" class="btn"><i class="icon icon-edit"></i></button>
+						<img src="https://cdns-images.dzcdn.net/images/user/45cafcfbe4ec93e35fe66daa5cbb7ce1/278x218-000000-80-0-0.jpg">
+					</figure>
+					<span class="user-avatar-shadow"></span>
+					<div class="user-name">celeis1</div>
+				</div>
+				<div class="user-background">
+					<span class="user-background-shadow"></span>
+				</div>
+				<nav class="user-menu text-ellipsis">
+					<ul>
+						<li><a href="/profile/4500/loved" class="link">Piese preferate</a></li>
+						<li><a href="/profile/4500/playlists" class="link">Playlisturi</a></li>
+						<li><a href="/profile/4500/albums" class="link">Albume</a></li>
+						<li><a href="/profile/4500/artists" class="link">Artişti</a></li>
+													<li><a href="/profile/4500/podcasts" class="link">Podcasturi</a></li>
+												<li><a href="/profile/4500/history" class="link">Istoricul audiţiilor</a></li>
+						<li><a href="/profile/4500/personal_song" class="link">MP3-urile mele</a></li>
+						<li><a href="/profile/4500/following" class="link">Following</a></li>
+						<li><a href="/profile/4500/followers" class="link">Followeri</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+	<div class="user-profil" id="profile_page_tab">
+		<div data-seo="naboo/profile/home">
+		<div data-template="naboo/profile/home" class="naboo-display-seo">
+	<section class="user-section topalbum-page">
+		<div class="clearfix">
+			<h2>Top tracks</h2>
+		</div>
+		<ul>
+					</ul>
+
+		<div class="clearfix">
+			<h2>Top albums</h2>
+		</div>
+		<ul>
+					</ul>
+
+		<div class="clearfix">
+			<h2>Top artists</h2>
+		</div>
+		<ul>
+					</ul>
+	</section>
+</div>		</div>
+	</div>
+</div>
+<script>window.__DZR_APP_STATE__ = {"TAB":{"home":{"top_track":{"data":[],"count":0,"total":0,"filtered_count":0},"top_album":{"data":[],"count":0,"total":0,"filtered_count":0},"top_artist":{"data":[],"count":0,"total":0,"filtered_count":0},"playlists":{"count":2,"total":2,"data":[{"PARENT_USER_ID":"4500","PLAYLIST_ID":"343439745","TITLE":"Loved tracks","STATUS":0,"TYPE":"4","PLAYLIST_PICTURE":"679936b577879457668697f0e6f2c755","PICTURE_TYPE":"cover","DATE_ADD":"2013-09-17 22:45:21","DATE_MOD":"2013-11-06 19:00:00","NB_SONG":1,"PARENT_USERNAME":"celeis1","__TYPE__":"playlist"},{"PARENT_USER_ID":"4500","PLAYLIST_ID":"41822736","TITLE":"ravi shankar","STATUS":0,"TYPE":"0","PLAYLIST_PICTURE":"2df537680c5c8733397e8a70555c7f2e-6a0927d35ec5b43420b5349cb5579f07-e5acd7eaa5a5823cc44907d284e911b7-35d5ea3a200355fe898a5390aac8f1c6","PICTURE_TYPE":"cover","DATE_ADD":"1970-01-01 02:00:00","DATE_MOD":"2013-11-06 19:00:00","NB_SONG":40,"PARENT_USERNAME":"celeis1","__TYPE__":"playlist"}],"checksum":"5e66634dca60f778ff2bb01e13813113","filtered_count":0},"albums":{"data":[{"ART_ID":"27","ALB_ID":"6575789","ALB_TITLE":"Random Access Memories","ART_NAME":"Daft Punk","ALB_PICTURE":"311bba0fc112d15f72c8b5a65f0456c1","DATE_ADD":"2013-07-11 22:12:31","DATE_FAVORITE":"2013-07-11 22:12:31","PHYSICAL_RELEASE_DATE":"2013-05-17","EXPLICIT_ALBUM_CONTENT":{"EXPLICIT_LYRICS_STATUS":0,"EXPLICIT_COVER_STATUS":0},"__TYPE__":"album"}],"count":1,"total":1,"checksum":"76faa88afd28e9ea1390e488e617c8c7","filtered_count":0},"artists":{"data":[{"ART_ID":"849","ART_NAME":"Jimi Hendrix","ART_PICTURE":"2deec542fc75d5691434c407ee077ff7","DATE_ADD":"2017-05-29 11:08:00","DATE_FAVORITE":"2017-05-29 11:08:00","NB_FAN":3931955,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"241187","ART_NAME":"Peter Doherty","ART_PICTURE":"41183af4a62daf2d9085947b8a4106c5","DATE_ADD":"2016-09-28 09:28:15","DATE_FAVORITE":"2016-09-28 09:28:15","NB_FAN":85465,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"719","ART_NAME":"Bob Marley & The Wailers","ART_PICTURE":"c8241e15efdefa9465c7b470643efb3b","DATE_ADD":"2016-03-19 00:36:16","DATE_FAVORITE":"2016-03-19 00:36:16","NB_FAN":11444572,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"997","ART_NAME":"David Bowie","ART_PICTURE":"2c768882b5736fe66e925e42d88003f9","DATE_ADD":"2016-03-19 00:36:16","DATE_FAVORITE":"2016-03-19 00:36:16","NB_FAN":1883545,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"2848","ART_NAME":"Benjamin Biolay","ART_PICTURE":"9d2e72770d8c80fd6fdee20e97b759bf","DATE_ADD":"2016-03-19 00:36:16","DATE_FAVORITE":"2016-03-19 00:36:16","NB_FAN":230110,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"352176","ART_NAME":"Hubert-F\u00e9lix Thi\u00e9faine","ART_PICTURE":"62acc643c3891003a6265576d938dfe9","DATE_ADD":"2016-03-19 00:36:16","DATE_FAVORITE":"2016-03-19 00:36:16","NB_FAN":186951,"SMARTRADIO":0,"__TYPE__":"artist"},{"ART_ID":"4968333","ART_NAME":"Kris Berry & Perquisite","ART_PICTURE":"","DATE_ADD":"2016-03-19 00:36:16","DATE_FAVORITE":"2016-03-19 00:36:16","NB_FAN":249,"SMARTRADIO":0,"__TYPE__":"artist"},{"ART_ID":"1918","ART_NAME":"Bebel Gilberto","ART_PICTURE":"5566fc6c38c2548060de7224cdcf836e","DATE_ADD":"2013-10-03 18:58:05","DATE_FAVORITE":"2013-10-03 18:58:05","NB_FAN":38868,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"1613","ART_NAME":"Arvo P\u00e4rt","ART_PICTURE":"01c40e5a28d21f57b47676c64fa73912","DATE_ADD":"2013-10-01 07:36:41","DATE_FAVORITE":"2013-10-01 07:36:41","NB_FAN":41683,"SMARTRADIO":0,"__TYPE__":"artist"},{"ART_ID":"1331","ART_NAME":"Babyshambles","ART_PICTURE":"499450bd019bdfb0941e557d22c8518b","DATE_ADD":"2013-08-30 14:02:56","DATE_FAVORITE":"2013-08-30 14:02:56","NB_FAN":102011,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"635","ART_NAME":"Paolo Conte","ART_PICTURE":"98a1cd7f1c9fd760d057ec8b5fa0bd2c","DATE_ADD":"2013-07-11 22:02:38","DATE_FAVORITE":"2013-07-11 22:02:38","NB_FAN":61066,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"1408","ART_NAME":"S\u00e9bastien Tellier","ART_PICTURE":"ba318de5e3ebb74afddb840853d247d6","DATE_ADD":"2013-07-11 22:02:38","DATE_FAVORITE":"2013-07-11 22:02:38","NB_FAN":151792,"SMARTRADIO":1,"__TYPE__":"artist"}],"count":12,"total":69,"checksum":"982f48440a2988516409985454741803","filtered_count":1},"shows":{"data":[],"count":0,"total":0,"checksum":"40cd750bba9870f18aada2478b24840a","filtered_count":0},"followers":{"data":[],"count":0,"total":0},"following":{"data":[],"count":0,"total":0},"following_suggest":{"data":[],"count":0,"total":0}}},"DATA":{"USER":{"USER_ID":"4500","BLOG_NAME":"celeis1","USER_PICTURE":"45cafcfbe4ec93e35fe66daa5cbb7ce1","ACTIVATION":"0","ONLINE":false,"__TYPE__":"user","TOP_TRACK":{"ALB_PICTURE":""},"LOVEDTRACKS_ID":"343439745","DISPLAY_NAME":"celeis1"},"FOLLOW":false,"FOLLOWING":false,"HAS_BLOCKED":false,"IS_BLOCKED":false,"IS_PUBLIC":true,"CURATOR":false,"IS_PERSONNAL":false,"NB_FOLLOWER":93,"NB_FOLLOWING":44}}</script>
+		</div>
+	</div>
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQNZ6"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    'deezer_user_id': 0,
+    'dzr_uniq_id': 'dzr_uniq_id_fr9a3330e9471898d2ff1eae5a5451253085c34e',
+    'offer_id': 0,
+    'new_user': 0,
+    'sub': 0,
+    'country': 'RO'
+});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPQNZ6');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+if (window.tracking) {
+	tracking.trackCampaign();
+}
+</script>
+<script type="text/javascript"  src="/QYdKIDlsd/yo7t3Ri/Ww/afYScSrXLOEb/LFtobS0ANwE/P0t6/HX0vdBc"></script></body>
+</html>

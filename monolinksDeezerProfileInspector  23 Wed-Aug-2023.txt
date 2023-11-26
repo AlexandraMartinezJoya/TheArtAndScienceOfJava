@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ro-RO" class="no-js" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta charset="utf-8">
+	<title>Descoperă universul muzical al dragonnoir1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="fb:app_id" content="241284008322">
+	<meta property="og:site_name" content="Deezer">
+
+    
+	<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon.a6a53d55264841165a904dbea19d5d73.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-16x16.526cde4edf20647be4ee32cdf35c1c13.png" rel="icon" sizes="16x16" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-32x32.42917d14a8cb0cc4045c827251b57c0e.png" rel="icon" sizes="32x32" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-48x48.92337504a99482504bbee02dce6997e1.png" rel="icon" sizes="48x48" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-96x96.852baf648e79894b668670e115e4a375.png" rel="icon" sizes="96x96" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-256x256.37ca2d4f52f47137b0517b2da0d85eee.png" rel="icon" sizes="256x256" type="image/png">
+<link href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/apple-touch-icon.0faedc2a9ed312db04eb0361fb14a41a.png" rel="apple-touch-icon" sizes="180x180">
+
+	<meta property="og:title" content="dragonnoir1">
+<meta property="og:description" content="Universul muzical al dragonnoir1">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="http://www.deezer.com/profile/100">
+<meta property="og:image" content="https://cdns-images.dzcdn.net/images/user/e1ec522b6d631aec06b5a394a9dc0296/120x120.jpg">
+<meta property="profile:username" content="dragonnoir1">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdns-images.dzcdn.net/images/user/e1ec522b6d631aec06b5a394a9dc0296/120x120.jpg">
+<meta name="twitter:url" content="http://www.deezer.com/profile/100">
+<meta name="twitter:title" content="dragonnoir1">
+<meta name="twitter:description" content="Universul muzical al dragonnoir1">
+<meta name="twitter:site" content="@deezer">
+<meta name="twitter:app:name:iphone" content="Deezer">
+<meta name="twitter:app:id:iphone" content="id292738169">
+<meta name="twitter:app:url:iphone" content="deezer://www.deezer.com/profile/100">
+<meta name="twitter:app:name:ipad" content="Deezer">
+<meta name="twitter:app:id:ipad" content="id292738169">
+<meta name="twitter:app:url:ipad" content="deezer://www.deezer.com/profile/100">
+<meta name="twitter:app:name:googleplay" content="Deezer">
+<meta name="twitter:app:id:googleplay" content="deezer.android.app">
+<meta name="twitter:app:url:googleplay" content="deezer://www.deezer.com/profile/100">
+<meta name="robots" content="noindex,nofollow,noarchive">
+
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/npfkoakaabdallkcdbpkkhfilkkngakh">
+	<link rel="search" type="application/opensearchdescription+xml" href="https://e-cdn-files.dzcdn.net/xml/opensearch.xml" title="Deezer.com">
+	<link rel="alternate" hreflang="en" href="https://www.deezer.com/en/profile/100">
+<link rel="alternate" hreflang="fr" href="https://www.deezer.com/fr/profile/100">
+<link rel="alternate" hreflang="de" href="https://www.deezer.com/de/profile/100">
+<link rel="alternate" hreflang="es-ES" href="https://www.deezer.com/es/profile/100">
+<link rel="alternate" hreflang="it" href="https://www.deezer.com/it/profile/100">
+<link rel="alternate" hreflang="nl" href="https://www.deezer.com/nl/profile/100">
+<link rel="alternate" hreflang="pt" href="https://www.deezer.com/pt/profile/100">
+<link rel="alternate" hreflang="ru" href="https://www.deezer.com/ru/profile/100">
+<link rel="alternate" hreflang="pt-BR" href="https://www.deezer.com/br/profile/100">
+<link rel="alternate" hreflang="pl" href="https://www.deezer.com/pl/profile/100">
+<link rel="alternate" hreflang="tr" href="https://www.deezer.com/tr/profile/100">
+<link rel="alternate" hreflang="ro" href="https://www.deezer.com/ro/profile/100">
+<link rel="alternate" hreflang="hu" href="https://www.deezer.com/hu/profile/100">
+<link rel="alternate" hreflang="sr" href="https://www.deezer.com/sr/profile/100">
+<link rel="alternate" hreflang="ar" href="https://www.deezer.com/ar/profile/100">
+<link rel="alternate" hreflang="hr" href="https://www.deezer.com/hr/profile/100">
+<link rel="alternate" hreflang="es" href="https://www.deezer.com/mx/profile/100">
+<link rel="alternate" hreflang="cs" href="https://www.deezer.com/cs/profile/100">
+<link rel="alternate" hreflang="sk" href="https://www.deezer.com/sk/profile/100">
+<link rel="alternate" hreflang="sv" href="https://www.deezer.com/sv/profile/100">
+<link rel="alternate" hreflang="en-US" href="https://www.deezer.com/us/profile/100">
+<link rel="alternate" hreflang="ja-JP" href="https://www.deezer.com/ja/profile/100">
+<link rel="alternate" hreflang="bg" href="https://www.deezer.com/bg/profile/100">
+<link rel="alternate" hreflang="da" href="https://www.deezer.com/da/profile/100">
+<link rel="alternate" hreflang="fi" href="https://www.deezer.com/fi/profile/100">
+<link rel="alternate" hreflang="sl" href="https://www.deezer.com/sl/profile/100">
+<link rel="alternate" hreflang="uk" href="https://www.deezer.com/uk/profile/100">
+<link rel="alternate" hreflang="x-default" href="https://www.deezer.com/en/profile/100">
+
+	<!--[if gte IE 9]>
+	<meta name="application-name" content="Deezer">
+	<meta name="msapplication-tooltip" content="Porneşte aplicaţia Deezer">
+	<meta name="msapplication-window" content="width=1600;height=1200">
+	<meta name="msapplication-starturl" content="http://www.deezer.com/ro/">
+	<meta name="msapplication-navbutton-color" content="#202020">
+	<![endif]-->
+
+	<link href="https://e-cdn-files.dzcdn.net/cache/css/sass_c/app-web.449274d3d0ba3fbebc9e.css" rel="stylesheet" type="text/css">
+	<script>
+if (window.self === window.top) {
+	document.domain = 'deezer.com';
+}
+</script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/runtime.0c19e93f1d228481f86d.js"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/legacy.3f54c78bf3f1bbe7fd7e.js"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/bocal-ro-RO.a4c63052c3c6b6db85ef.js" defer="true"></script>
+<script src="https://e-cdn-files.dzcdn.net/cache/js/app-web.2231f232c6bd7bec008d.js" defer="true"></script>
+	
+		</head>
+<body class="dir-ltr">
+	<div id="dzr-app">
+		<div class="hidden" id="naboo_content">
+			<div id="page_profile">
+	<div id="page_profile_header">
+		<div data-seo="naboo/profile/header">
+			<header class="user-header naboo-display-seo">
+				<div class="user-avatar select">
+					<figure>
+						<button type="button" class="btn"><i class="icon icon-edit"></i></button>
+						<img src="https://cdns-images.dzcdn.net/images/user/e1ec522b6d631aec06b5a394a9dc0296/278x218-000000-80-0-0.jpg">
+					</figure>
+					<span class="user-avatar-shadow"></span>
+					<div class="user-name">dragonnoir1</div>
+				</div>
+				<div class="user-background">
+					<span class="user-background-shadow"></span>
+				</div>
+				<nav class="user-menu text-ellipsis">
+					<ul>
+						<li><a href="/profile/100/loved" class="link">Piese preferate</a></li>
+						<li><a href="/profile/100/playlists" class="link">Playlisturi</a></li>
+						<li><a href="/profile/100/albums" class="link">Albume</a></li>
+						<li><a href="/profile/100/artists" class="link">Artişti</a></li>
+													<li><a href="/profile/100/podcasts" class="link">Podcasturi</a></li>
+												<li><a href="/profile/100/history" class="link">Istoricul audiţiilor</a></li>
+						<li><a href="/profile/100/personal_song" class="link">MP3-urile mele</a></li>
+						<li><a href="/profile/100/following" class="link">Following</a></li>
+						<li><a href="/profile/100/followers" class="link">Followeri</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+	<div class="user-profil" id="profile_page_tab">
+		<div data-seo="naboo/profile/home">
+		<div data-template="naboo/profile/home" class="naboo-display-seo">
+	<section class="user-section topalbum-page">
+		<div class="clearfix">
+			<h2>Top tracks</h2>
+		</div>
+		<ul>
+					</ul>
+
+		<div class="clearfix">
+			<h2>Top albums</h2>
+		</div>
+		<ul>
+					</ul>
+
+		<div class="clearfix">
+			<h2>Top artists</h2>
+		</div>
+		<ul>
+					</ul>
+	</section>
+</div>		</div>
+	</div>
+</div>
+<script>window.__DZR_APP_STATE__ = {"TAB":{"home":{"top_track":{"data":[{"SNG_ID":"60729221","SNG_TITLE":"S\u00e8me","ART_ID":"383142","ART_NAME":"Aya Waska","ARTISTS":[{"ART_ID":"383142","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Aya Waska","ARTIST_IS_DUMMY":false,"ART_PICTURE":"7401593e1ca1aee1aea5a03fb17f44c6","RANK":"341827","LOCALES":[],"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"5942507","ALB_TITLE":"S\u00e8me","ALB_PICTURE":"7401593e1ca1aee1aea5a03fb17f44c6","DURATION":"216","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2012-09-23","LYRICS_ID":0,"FILESIZE":"3469104","FILESIZE_MP3_128":"3469104","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"8672696","FILESIZE_FLAC":"27041451","GAIN":"-10.4","__TYPE__":"song"},{"SNG_ID":"2295357","SNG_TITLE":"Je sais pas jouer","ART_ID":"5251","ART_NAME":"Pierpoljak","ARTISTS":[{"ART_ID":"5251","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Pierpoljak","ARTIST_IS_DUMMY":false,"ART_PICTURE":"fcb67f0ebf6e3bdf0fa632da202afb8c","RANK":"623556","LOCALES":{"lang_ja-jpan":{"name":"\u30d4\u30a8\u30dd\u30eb\u30b8\u30e3\u30c3\u30af"},"lang_fr":{"name":"Pierpoljak"},"lang_en":{"name":"Pierpoljak"}},"__TYPE__":"artist"}],"ALB_ID":"228859","ALB_TITLE":"Kingston Karma","ALB_PICTURE":"42004cdbb38e28a508d3c060d6989fbe","DURATION":"252","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"1999-01-01","LYRICS_ID":0,"FILESIZE":"4034141","FILESIZE_MP3_128":"4034141","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"10085354","FILESIZE_FLAC":"27748396","GAIN":"-12.4","__TYPE__":"song"},{"SNG_ID":"71093031","SNG_TITLE":"Yes Papa","ART_ID":"504464","ART_NAME":"PAPA STYLE","ARTISTS":[{"ART_ID":"504464","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"0","ART_NAME":"PAPA STYLE","ARTIST_IS_DUMMY":false,"ART_PICTURE":"4770fea695453baf4ccdd2e1355af6f1","RANK":"318669","LOCALES":[],"__TYPE__":"artist"}],"ALB_ID":"6978611","ALB_TITLE":"Alma de Guerrero","ALB_PICTURE":"0c5981802d619da53981e8cb3502493d","DURATION":"174","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2013-11-04","LYRICS_ID":0,"FILESIZE":"2789910","FILESIZE_MP3_128":"2789910","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6974726","FILESIZE_FLAC":"19328256","GAIN":"-9.8","__TYPE__":"song"},{"SNG_ID":"78479196","SNG_TITLE":"Ugly Boy","ART_ID":"493435","ART_NAME":"Die Antwoord","ARTISTS":[{"ART_ID":"493435","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Die Antwoord","ARTIST_IS_DUMMY":false,"ART_PICTURE":"1bb35a545dd755aa798920926c46f3a0","RANK":"552633","LOCALES":{"lang_en":{"name":"Die Antwoord"},"lang_ja-jpan":{"name":"Die Antwoord"}},"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"7805299","ALB_TITLE":"Donker Mag","ALB_PICTURE":"e0c95f24e9eed16e22cae6c3358f1f95","DURATION":"213","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2014-06-03","LYRICS_ID":0,"FILESIZE":"3418905","FILESIZE_MP3_128":"3418905","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"8547264","FILESIZE_FLAC":"27361801","GAIN":"-9.4","__TYPE__":"song"},{"SNG_ID":"65768051","SNG_TITLE":"Les petits signaux","ART_ID":"794652","ART_NAME":"Giedre","ARTISTS":[{"ART_ID":"794652","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"0","ART_NAME":"Giedre","ARTIST_IS_DUMMY":false,"ART_PICTURE":"93c18c4d47dc4acb5f1cc3f57cce469c","RANK":"469568","LOCALES":[],"__TYPE__":"artist"}],"ALB_ID":"6447486","ALB_TITLE":"Mon premier album vendu dans les vrais magasins","ALB_PICTURE":"f6cddc141a0c637b6a7906d93da48075","DURATION":"168","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2013-04-08","LYRICS_ID":0,"FILESIZE":"2693779","FILESIZE_MP3_128":"2693779","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6734400","FILESIZE_FLAC":"13154745","GAIN":"-16.4","__TYPE__":"song"},{"SNG_ID":"56889611","SNG_TITLE":"Ce que l'on s'aime","ART_ID":"457","ART_NAME":"Tryo","ARTISTS":[{"ART_ID":"457","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Tryo","ARTIST_IS_DUMMY":false,"ART_PICTURE":"20746c07394cd2531ed4dc9512e45e96","RANK":"749216","LOCALES":{"lang_fr":{"name":"Tryo"}},"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"5557491","ALB_TITLE":"Ce que l'on s\u00e8me","ALB_PICTURE":"2de2d9c83e4ff371f4d79cc9042573e0","DURATION":"174","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2008-04-30","LYRICS_ID":0,"FILESIZE":"2786532","FILESIZE_MP3_128":"2786532","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"6966333","FILESIZE_FLAC":"20408755","GAIN":"-9.8","__TYPE__":"song"},{"SNG_ID":"56890521","SNG_TITLE":"Apocalypticodramatic","ART_ID":"457","ART_NAME":"Tryo","ARTISTS":[{"ART_ID":"457","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Tryo","ARTIST_IS_DUMMY":false,"ART_PICTURE":"20746c07394cd2531ed4dc9512e45e96","RANK":"749216","LOCALES":{"lang_fr":{"name":"Tryo"}},"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"5557591","ALB_TITLE":"Grain de sable","ALB_PICTURE":"291a773a6f72fbb478acca94b8a44fbb","DURATION":"226","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2012-04-30","LYRICS_ID":34625562,"FILESIZE":"3621615","FILESIZE_MP3_128":"3621615","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"9054040","FILESIZE_FLAC":"25750755","GAIN":"-10.1","__TYPE__":"song"},{"SNG_ID":"71484397","SNG_TITLE":"La France fume","ART_ID":"504464","ART_NAME":"PAPA STYLE","ARTISTS":[{"ART_ID":"504464","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"0","ART_NAME":"PAPA STYLE","ARTIST_IS_DUMMY":false,"ART_PICTURE":"4770fea695453baf4ccdd2e1355af6f1","RANK":"318669","LOCALES":[],"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"7021424","ALB_TITLE":"La France fume (Alma de Guerrero)","ALB_PICTURE":"0c5981802d619da53981e8cb3502493d","DURATION":"192","RIGHTS":{},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2013-10-04","LYRICS_ID":0,"FILESIZE":"3078268","FILESIZE_MP3_128":"3078268","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7695672","FILESIZE_FLAC":"20828626","GAIN":"-11.1","__TYPE__":"song"},{"SNG_ID":"17143862","SNG_TITLE":"L'apologie","ART_ID":"660","ART_NAME":"Matmatah","ARTISTS":[{"ART_ID":"660","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"9","ART_NAME":"Matmatah","ARTIST_IS_DUMMY":false,"ART_PICTURE":"b208600ad152538147f319e965ce0cbf","RANK":"691034","LOCALES":[],"__TYPE__":"artist"}],"ALB_ID":"1604183","ALB_TITLE":"La Ouache","ALB_PICTURE":"5471f44044e20d9f59d98c411892f09a","DURATION":"198","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2004-03-15","LYRICS_ID":8829201,"FILESIZE":"3181922","FILESIZE_MP3_128":"3181922","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"7954807","FILESIZE_FLAC":"25355105","GAIN":"-8.6","__TYPE__":"song"},{"SNG_ID":"72037483","SNG_TITLE":"Au March\u00e9 Du Soleil","ART_ID":"1877","ART_NAME":"Massilia Sound System","ARTISTS":[{"ART_ID":"1877","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"0","ART_NAME":"Massilia Sound System","ARTIST_IS_DUMMY":false,"ART_PICTURE":"2a3a6edbab77362719d2534583c7ac97","RANK":"620806","LOCALES":[],"__TYPE__":"artist"}],"ALB_ID":"7076877","ALB_TITLE":"\u00d2ai E Libertat","ALB_PICTURE":"0e6fcebb0d282dff1bc1cea736807165","DURATION":"280","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2013-10-24","LYRICS_ID":0,"FILESIZE":"4476341","FILESIZE_MP3_128":"4476341","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"11190856","FILESIZE_FLAC":"27803939","GAIN":"-10.7","__TYPE__":"song"},{"SNG_ID":"93916046","SNG_TITLE":"Tout ce qu'ils veulent","ART_ID":"308253","ART_NAME":"Dub Inc","ARTISTS":[{"ART_ID":"308253","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"9","ART_NAME":"Dub Inc","ARTIST_IS_DUMMY":false,"ART_PICTURE":"89a431564171d519ae0ce7953f230c36","RANK":"754331","LOCALES":{"lang_ar":{"name":"\u062f\u0627\u0628 \u0625\u0646\u0643"}},"__TYPE__":"artist"}],"ALB_ID":"9543330","ALB_TITLE":"Hors contr\u00f4le","ALB_PICTURE":"5ade0d1d2c938df8c651c2e47df6bae2","DURATION":"326","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2010-10-04","LYRICS_ID":2879842,"FILESIZE":"5230758","FILESIZE_MP3_128":"5230758","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"13076897","FILESIZE_FLAC":"41056846","GAIN":"-9.4","__TYPE__":"song"},{"SNG_ID":"43037711","SNG_TITLE":"Fat Fat","ART_ID":"215273","ART_NAME":"Vandal","ARTISTS":[{"ART_ID":"215273","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"0","ART_NAME":"Vandal","ARTIST_IS_DUMMY":false,"ART_PICTURE":"eef3e9b578f73e6eac6febafda8e2499","RANK":"429855","LOCALES":{"lang_en":{"name":"Vandal"},"lang_ko-kr":{"name":"\ubc18\ub2ec"},"lang_ko":{"name":"VANDAL (\ubc18\ub2ec)"}},"SMARTRADIO":0,"__TYPE__":"artist"}],"ALB_ID":"4197591","ALB_TITLE":"Raggatek Power","ALB_PICTURE":"b86c3718810fc73861011e839fbcec53","DURATION":"326","RIGHTS":{"STREAM_ADS_AVAILABLE":true,"STREAM_ADS":"2000-01-01","STREAM_SUB_AVAILABLE":true,"STREAM_SUB":"2000-01-01"},"TYPE":0,"ALB_PHYSICAL_RELEASE_DATE":"2012-07-09","LYRICS_ID":0,"FILESIZE":"5220309","FILESIZE_MP3_128":"5220309","FILESIZE_MP3_256":0,"FILESIZE_MP3_320":"13050774","FILESIZE_FLAC":"38578478","GAIN":"-9.7","__TYPE__":"song"}],"count":12,"total":57,"filtered_count":0},"top_album":{"data":[],"count":0,"total":0,"filtered_count":0},"top_artist":{"data":[{"ART_ID":"308253","ART_NAME":"Dub Inc","ART_PICTURE":"89a431564171d519ae0ce7953f230c36","NB_FAN":542356,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"383142","ART_NAME":"Aya Waska","ART_PICTURE":"aa62198c9ea51d603f136624b80fa8ff","NB_FAN":8810,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"469572","ART_NAME":"Le Bask","ART_PICTURE":"aa6cbb40bc7f08ede356e9c72a45e4ac","NB_FAN":33917,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"493435","ART_NAME":"Die Antwoord","ART_PICTURE":"1bb35a545dd755aa798920926c46f3a0","NB_FAN":440248,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"504464","ART_NAME":"PAPA STYLE","ART_PICTURE":"4770fea695453baf4ccdd2e1355af6f1","NB_FAN":8655,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"719","ART_NAME":"Bob Marley & The Wailers","ART_PICTURE":"c8241e15efdefa9465c7b470643efb3b","NB_FAN":11433259,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"714","ART_NAME":"Alpha Blondy","ART_PICTURE":"794f26a0b0d585bdcc459f85f1c9215c","NB_FAN":618514,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"660","ART_NAME":"Matmatah","ART_PICTURE":"b208600ad152538147f319e965ce0cbf","NB_FAN":264990,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"525643","ART_NAME":"Skrillex","ART_PICTURE":"0075f053766d7d0e12e4a7be22b85e6a","NB_FAN":3747034,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"794652","ART_NAME":"Giedre","ART_PICTURE":"93c18c4d47dc4acb5f1cc3f57cce469c","NB_FAN":95846,"SMARTRADIO":0,"__TYPE__":"artist"},{"ART_ID":"3542201","ART_NAME":"Deorro","ART_PICTURE":"5c81e302bbc820c3827335f7a5ecd4ae","NB_FAN":954890,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"254","ART_NAME":"Damian Marley","ART_PICTURE":"4a3622529579e50ad5c5f1cca2316af6","NB_FAN":2379788,"SMARTRADIO":1,"__TYPE__":"artist"}],"count":12,"total":20,"filtered_count":0},"playlists":{"count":4,"total":4,"data":[{"PARENT_USER_ID":"14131470","PLAYLIST_ID":"46395250","TITLE":"Orange Select","STATUS":0,"TYPE":"0","PLAYLIST_PICTURE":"3874c7e8318f4b30bd11322cd2ca1962","PICTURE_TYPE":"playlist","DATE_ADD":"2020-06-24 16:47:02","DATE_FAVORITE":"2016-10-07 13:17:21","PARENT_USERNAME":"Orange musique","USER_ID":"14131470","__TYPE__":"playlist"},{"PARENT_USER_ID":"100","PLAYLIST_ID":"1886745042","TITLE":"K\u00e9vin","STATUS":0,"TYPE":"0","PLAYLIST_PICTURE":"291a773a6f72fbb478acca94b8a44fbb-2de2d9c83e4ff371f4d79cc9042573e0-0509f842cc2e269ea4f7e67bb03bafaa-0c5981802d619da53981e8cb3502493d","PICTURE_TYPE":"cover","DATE_ADD":"2016-09-11 12:10:51","DATE_MOD":"2016-09-14 20:25:14","NB_SONG":44,"PARENT_USERNAME":"dragonnoir1","__TYPE__":"playlist"},{"PARENT_USER_ID":"100","PLAYLIST_ID":"272040201","TITLE":"Loved tracks","STATUS":0,"TYPE":"4","PLAYLIST_PICTURE":"679936b577879457668697f0e6f2c755","PICTURE_TYPE":"cover","DATE_ADD":"2016-09-11 12:10:49","DATE_MOD":"2016-09-11 12:10:49","NB_SONG":61,"PARENT_USERNAME":"dragonnoir1","__TYPE__":"playlist"},{"PARENT_USER_ID":"100","PLAYLIST_ID":"2092147644","TITLE":"Giedre","STATUS":0,"TYPE":"0","PLAYLIST_PICTURE":"4e9fa0ce96a2d91efcac598adf1f005f","PICTURE_TYPE":"cover","DATE_ADD":"2016-08-02 20:41:58","DATE_MOD":"2016-08-02 20:41:58","NB_SONG":1,"PARENT_USERNAME":"dragonnoir1","__TYPE__":"playlist"}],"checksum":"16214b84815f45a79d82767561bccb55","filtered_count":0},"albums":{"data":[{"ART_ID":"504464","ALB_ID":"7021424","ALB_TITLE":"La France fume (Alma de Guerrero)","ART_NAME":"PAPA STYLE","ALB_PICTURE":"0c5981802d619da53981e8cb3502493d","DATE_ADD":"2016-06-01 17:43:05","DATE_FAVORITE":"2016-06-01 17:43:05","PHYSICAL_RELEASE_DATE":"2013-10-04","EXPLICIT_ALBUM_CONTENT":{"EXPLICIT_LYRICS_STATUS":0,"EXPLICIT_COVER_STATUS":2},"__TYPE__":"album"}],"count":1,"total":1,"checksum":"e20dc9760f19e836886d688928cc636e","filtered_count":0},"artists":{"data":[{"ART_ID":"794652","ART_NAME":"Giedre","ART_PICTURE":"93c18c4d47dc4acb5f1cc3f57cce469c","DATE_ADD":"2016-06-02 10:05:37","DATE_FAVORITE":"2016-06-02 10:05:37","NB_FAN":95846,"SMARTRADIO":0,"__TYPE__":"artist"},{"ART_ID":"457","ART_NAME":"Tryo","ART_PICTURE":"20746c07394cd2531ed4dc9512e45e96","DATE_ADD":"2016-06-01 19:23:00","DATE_FAVORITE":"2016-06-01 19:23:00","NB_FAN":851236,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"504464","ART_NAME":"PAPA STYLE","ART_PICTURE":"4770fea695453baf4ccdd2e1355af6f1","DATE_ADD":"2016-06-01 17:43:10","DATE_FAVORITE":"2016-06-01 17:43:10","NB_FAN":8655,"SMARTRADIO":1,"__TYPE__":"artist"},{"ART_ID":"4244987","ART_NAME":"Dr. Peacock","ART_PICTURE":"fcee4ec0be297df5460d24b2593efbe8","DATE_ADD":"2016-06-01 17:42:38","DATE_FAVORITE":"2016-06-01 17:42:38","NB_FAN":79980,"SMARTRADIO":1,"__TYPE__":"artist"}],"count":4,"total":4,"checksum":"c3f4522d9a10f1bbf9b3970aa2b60c50","filtered_count":0},"shows":{"data":[],"count":0,"total":0,"checksum":"40cd750bba9870f18aada2478b24840a","filtered_count":0},"followers":{"data":[],"count":0,"total":0},"following":{"data":[],"count":0,"total":0},"following_suggest":{"data":[],"count":0,"total":0}}},"DATA":{"USER":{"USER_ID":"100","BLOG_NAME":"dragonnoir1","USER_PICTURE":"e1ec522b6d631aec06b5a394a9dc0296","ACTIVATION":"1","ONLINE":false,"__TYPE__":"user","TOP_TRACK":{"SNG_ID":"60729221","SNG_TITLE":"S\u00e8me","ART_ID":"383142","ART_NAME":"Aya Waska","ARTISTS":[{"ART_ID":"383142","ROLE_ID":"0","ARTISTS_SONGS_ORDER":"1","ART_NAME":"Aya Waska","ARTIST_IS_DUMMY":false,"ART_PICTURE":"7401593e1ca1aee1aea5a03fb17f44c6","RANK":"341827","LOCALES":[],"SMARTRADIO":1,"__TYPE__":"artist"}],"ALB_ID":"5942507","ALB_TITLE":"S\u00e8me","ALB_PICTURE":"7401593e1ca1aee1aea5a03fb17f44c6","ALB_PHYSICAL_RELEASE_DATE":"2012-09-23","LYRICS_ID":0,"DURATION":"216","EXPLICIT_TRACK_CONTENT":{"EXPLICIT_LYRICS_STATUS":0,"EXPLICIT_COVER_STATUS":2},"__TYPE__":"song"},"LOVEDTRACKS_ID":"272040201","DISPLAY_NAME":"dragonnoir1"},"FOLLOW":false,"FOLLOWING":false,"HAS_BLOCKED":false,"IS_BLOCKED":false,"IS_PUBLIC":true,"CURATOR":false,"IS_PERSONNAL":false,"NB_FOLLOWER":88,"NB_FOLLOWING":40}}</script>
+		</div>
+	</div>
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQNZ6"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    'deezer_user_id': 0,
+    'dzr_uniq_id': 'dzr_uniq_id_fr6256fd98b1d185834371fb9eda815b28df3b36',
+    'offer_id': 0,
+    'new_user': 0,
+    'sub': 0,
+    'country': 'RO'
+});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPQNZ6');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+if (window.tracking) {
+	tracking.trackCampaign();
+}
+</script>
+<script type="text/javascript"  src="/l2ftugcSqTktJ/MFksdq8lC6_/zp4/9X9XmLGkNE3m/OBoxAQ/R1gU/BlYPcTE"></script></body>
+</html>
