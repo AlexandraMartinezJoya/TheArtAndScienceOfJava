@@ -16,10 +16,9 @@ public class MonolinksDeezerProfileInspector extends ConsoleProgram {
 
     public void monolinkDeezerConcertCrawler() {
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        for(int i=5; i < 101; i++){
+        for(int i=4502; i < 5001; i++){
             listOfPendingUrls.add("https://www.deezer.com/de/user/" + i);
         }
-
 
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();

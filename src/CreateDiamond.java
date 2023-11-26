@@ -24,8 +24,18 @@ public class CreateDiamond extends GraphicsProgram {
         GDiamond diamond1 = new GDiamond(100);
         add(diamond1, (double)getWidth() / 3 ,(double)getHeight() / 2);
 
+
+        GPolygon newDiamond = new GPolygon();
+        newDiamond.addVertex( -DIAMOND_SIDE * 4, DIAMOND_SIDE  * 4  );
+        int angle = -45;
+        for(int i = 0; i < 4; i ++){
+            newDiamond.addPolarEdge(DIAMOND_SIDE, angle);
+            angle += 90;
+        }
+        add(newDiamond, getWidth()  * 1.88 , getHeight() - getHeight() * 2 + 1.44 * DIAMOND_SIDE );
     }
 
+    private final double DIAMOND_SIDE = 100;
     private final double DIAMOND_WIDTH = 80;
     private final double DIAMOND_HEIGHT = 120;
 }

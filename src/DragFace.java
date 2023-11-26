@@ -6,6 +6,8 @@
 
 import acm.graphics.GObject;
 import acm.program.GraphicsProgram;
+
+import java.awt.*;
 import java.awt.event.*;
 
 
@@ -16,6 +18,7 @@ public class DragFace extends GraphicsProgram {
         double x = (getWidth() - FACE_WIDTH) / 2;
         double y = (getHeight() - FACE_HEIGHT) / 2;
         add (face, x, y);
+        face.setColor(Color.ORANGE);
         addMouseListeners();
     }
 

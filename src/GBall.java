@@ -13,8 +13,8 @@ public class GBall extends GCompound  {
     }
 
     /** Creates a new ball with radius centered at (x, y) */
-    public GBall(double radius, double width, double height){
+    public GBall(double radius, double xCoord, double yCoord){
         this(radius);
-        setLocation(width, height);
+        setLocation(xCoord, yCoord);
     }
 }

@@ -11,7 +11,7 @@ public class createIsoscelescTriangle extends GraphicsProgram {
     private GPolygon createIsoscelescTriangle(double side){
         GPolygon triangle = new GPolygon();
         triangle.addVertex(-side / 2, 0);
-        int angle = 120;
+        int angle = 0;
         for (int i = 0; i < 2; i++){
             triangle.addPolarEdge(side, angle);
             angle += 90;

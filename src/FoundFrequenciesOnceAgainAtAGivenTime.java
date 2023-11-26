@@ -20,13 +20,14 @@ import java.util.Scanner;
 public class FoundFrequenciesOnceAgainAtAGivenTime extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=monolink";
+        String url = "https://www.youtube.com/search?q=monolink";
         crawler(url);
     }
 
     public void crawler(String startingUrl){
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
-        listOfPendingUrls.add("https://www.youtube.com/");
+        listOfPendingUrls.add("https://www.youtube.com/q=lostFrequencies");
+        listOfPendingUrls.add("https://www.youtube.com/q=Worakls");
         listOfPendingUrls.add(startingUrl);
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();

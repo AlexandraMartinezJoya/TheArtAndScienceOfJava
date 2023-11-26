@@ -3,13 +3,13 @@ import acm.graphics.*;
 /**
  * Defines a new GObject class that appears as a five-pointed star
  */
-public class GStar extends GPolygon {
+public class GFivePointStar extends GPolygon {
 
 /**
  * Creates a new GStar centered at the origin with the specified horizontal width
  * @param width The width of the star
  */
-   public GStar(double width){
+   public GFivePointStar(double width){
        double dx = width /2;
        double dy = dx * GMath.tanDegrees(18);
        double edge = width / 2 - dy * GMath.tanDegrees(36);

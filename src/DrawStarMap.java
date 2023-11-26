@@ -1,10 +1,10 @@
-import acm.graphics.GCanvas;
 import acm.program.GraphicsProgram;
 
 import javax.swing.*;
 
 import java.awt.*;
 import java.awt.event.*;
+
 
 public class DrawStarMap extends GraphicsProgram {
 
@@ -43,7 +43,7 @@ public class DrawStarMap extends GraphicsProgram {
     /*Called whenever the user clicks the mouse *?
      */
     public void mouseClicked(MouseEvent e) {
-        GStar star = new GStar(getCurrentSize());
+        GFivePointStar star = new GFivePointStar(getCurrentSize());
         star.setFilled(filledCheckbox.isSelected());
         star.setFillColor(getCurrentColor());
         add(star, e.getX(), e.getY());
@@ -75,6 +75,8 @@ public class DrawStarMap extends GraphicsProgram {
         colorChooser.addItem("Green");
         colorChooser.addItem("Blue");
         colorChooser.addItem("Black");
+        colorChooser.addItem("Pink");
+        colorChooser.addItem("Purple");
         colorChooser.setEnabled(true);
         colorChooser.setSelectedItem("White");
     }
@@ -99,6 +101,12 @@ public class DrawStarMap extends GraphicsProgram {
         if(name.equals("Black")){
             return Color.BLACK;
         }
+        if(name.equals("Pink")){
+            return Color.PINK;
+        }
+        if(name.equals("Purple")){
+            return PURPLE_COLOR;
+        }
         return Color.WHITE;
     }
 
@@ -112,4 +120,5 @@ public class DrawStarMap extends GraphicsProgram {
     private final double SMALL_SIZE = 30;
     private final double MEDIUM_SIZE =  45;
     private final double LARGE_SIZE =  60;
+    private final Color PURPLE_COLOR = new Color(163, 73, 164);
 }

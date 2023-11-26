@@ -11,17 +11,17 @@ public class CreateArrowHead extends GraphicsProgram {
         double initialStartPointYCoord = getHeight() / 2;
 
 
-        GPolygon mouthCompound = new GPolygon();
-        mouthCompound.addVertex( - ARROW_BASE / 1.50, 0 );
-        mouthCompound.addVertex(  30, ARROW_HEIGHT / 2 );
-        mouthCompound.addVertex( ARROW_BASE / 1.50 , 0 );
-        mouthCompound.addVertex(  30, - ARROW_HEIGHT / 2 );
+        GPolygon arrowCompound = new GPolygon();
+        arrowCompound.addVertex( - ARROW_BASE / 1.50, 0 );
+        arrowCompound.addVertex(  30, ARROW_HEIGHT / 2 );
+        arrowCompound.addVertex( ARROW_BASE / 1.50 , 0 );
+        arrowCompound.addVertex(  30, - ARROW_HEIGHT / 2 );
 
-        add(mouthCompound, (double)getWidth() / 2, (double)getHeight() / 2);
+        add(arrowCompound, (double)getWidth() / 2, (double)getHeight() / 2);
 
-        mouthCompound.setFilled(true);
-        mouthCompound.setFillColor(Color.BLACK);
-        add(mouthCompound,  initialStartPointXCoord - arrowInitialRadius / 6, initialStartPointYCoord + arrowInitialRadius / 4);
+        arrowCompound.setFilled(true);
+        arrowCompound.setFillColor(Color.BLACK);
+        add(arrowCompound,  initialStartPointXCoord - arrowInitialRadius / 6, initialStartPointYCoord + arrowInitialRadius / 4);
     }
 
     private final double arrowInitialRadius = 250;

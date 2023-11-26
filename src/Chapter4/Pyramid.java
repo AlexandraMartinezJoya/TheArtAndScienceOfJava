@@ -21,7 +21,6 @@ public class Pyramid extends GraphicsProgram {
         pyramidBricks();
     }
 
-
     private void pyramidBricks(){
         int numOfBricks = BRICKS_IN_BASE;
         int numOfRows = BRICKS_IN_BASE;

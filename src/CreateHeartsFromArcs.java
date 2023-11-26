@@ -16,6 +16,6 @@ public class CreateHeartsFromArcs  extends GraphicsProgram {
                 heart.addArc(diamondSide, diamondSide, -angle ,  -angle2);
                 heart.addArc(diamondSide, diamondSide, angle, -angle2);
 
-                add(heart , getWidth() / 2, getHeight() / 2);
+                add(heart , getWidth() / 2 - diamondSide, getHeight() / 2 + diamondSide);
         }
 }
