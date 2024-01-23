@@ -86,7 +86,6 @@ public class MonolinkOtherDataFetcher extends ConsoleProgram {
             String month = getMonth(formattedToday);
             String dayDateFormat = createDateString(today, month, year);
 
-
             File monolinkNewticketingAgencyAndsoMuchMore = new File( "monolinkNewticketingAgencyAndsoMuchMore" + dayDateFormat + ".html");
             File artLinksFile = new File ("steamskickedtoday" + dayDateFormat + ".txt");
             PrintWriter output = new PrintWriter(artLinksFile);

@@ -9,7 +9,6 @@ public class DrawHourGlass extends GraphicsProgram {
         double initialStartPointXCoord = getWidth() / 2;
         double initialStartPointYCoord = getHeight() / 2;
 
-
         GPolygon hourGlassCompound = new GPolygon();
         hourGlassCompound.addVertex( 0 , 0 );
         hourGlassCompound.addVertex(  90, 0  );
@@ -18,7 +17,6 @@ public class DrawHourGlass extends GraphicsProgram {
         hourGlassCompound.addVertex(  90, 0);
         hourGlassCompound.addVertex(  0, 90);
 
-        //
         hourGlassCompound.addVertex( 0 , 0 );
         hourGlassCompound.addVertex(  -90, 0  );
         hourGlassCompound.addVertex(  0, -50);
@@ -30,7 +28,6 @@ public class DrawHourGlass extends GraphicsProgram {
         hourGlassCompound.setFillColor(Color.BLACK);
         add(hourGlassCompound,  (initialStartPointXCoord + objectBase)/ 2, initialStartPointYCoord );
     }
-
 
     private final double objectBase = 250;
 }

@@ -20,7 +20,7 @@ public class MonolinksNewStreamingSite2 extends ConsoleProgram {
        listOfPendingUrls.add("https://www.songkick.com/");
        listOfPendingUrls.add("https://brianamacwilliam.com/https://brianamacwilliam.com/");
        listOfPendingUrls.add("https://brianamacwilliam.com/https://brianamacwilliam.com/blog");
-        listOfPendingUrls.add("www.cursdepuericultura.ro");
+       listOfPendingUrls.add("www.cursdepuericultura.ro");
        listOfPendingUrls.add("drirenalexoi.ro");
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();

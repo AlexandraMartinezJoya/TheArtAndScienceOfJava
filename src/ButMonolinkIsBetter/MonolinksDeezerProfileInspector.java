@@ -22,8 +22,6 @@ public class MonolinksDeezerProfileInspector extends ConsoleProgram {
             listOfPendingUrls.add("https://www.deezer.com/de/user/" + i);
         }
 
-
-
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
         while (!listOfPendingUrls.isEmpty() && listOfTraversedUrls.size() <= 100) {

@@ -16,6 +16,9 @@ public class MonolinkConcertNewsFetcher extends ConsoleProgram {
         monolinkConcertCrawler();
     }
 
+    //Songkick tracks by ip, the username registration is the current ip location, then uses geolocation of the user
+    // then starts bloodhounding the ones that sound good on first try 82.86.16.3 was the ip used @registration
+
     public void monolinkConcertCrawler() {
         ArrayList<String> listOfPendingUrls = new ArrayList<>();
         listOfPendingUrls.add("https://www.songkick.com/artists/8286163-monolink/calendar");

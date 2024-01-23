@@ -11,7 +11,6 @@ public class GlowingRainbowHeart extends GraphicsProgram {
             heart.setColor(rgen.nextColor());
             pause(PAUSE_TIME);
         }
-
     }
 
 
@@ -20,7 +19,6 @@ public class GlowingRainbowHeart extends GraphicsProgram {
 
     /**Random number generator */
     private RandomGenerator rgen = new RandomGenerator();
-
 
     private GHeart heart;
 

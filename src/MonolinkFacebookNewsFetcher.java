@@ -126,8 +126,6 @@ public class MonolinkFacebookNewsFetcher extends ConsoleProgram {
         listOfPendingUrls.add("https://monoskop.org/Art_and_technology_centres");
 
 
-
-
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();
 
         while(!listOfPendingUrls.isEmpty() && listOfTraversedUrls.size() <= 100){

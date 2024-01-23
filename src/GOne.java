@@ -15,9 +15,9 @@ public class GOne  extends GPolygon {
         GLabel one = new GLabel("1" );
         double oneWidth = one.getWidth();
         double oneHeight = one.getHeight();
-        one.setColor(PURPLE_COLOR);
+        one.setColor(MY_GREEN_COLOR);
         one.setLocation(XLocation - oneWidth / 2,  YLocation - oneHeight / 2);
     }
 
-    private final Color PURPLE_COLOR = new Color(163, 73, 164);
+    private final Color MY_GREEN_COLOR = new Color(76, 150, 50);
 }

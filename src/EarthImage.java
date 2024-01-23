@@ -15,7 +15,7 @@ import java.awt.*;
 public class EarthImage extends GraphicsProgram {
 
     public void run(){
-        add(new GImage("src/EarthFromApollo17.jpg"));
+        add(new GImage("EarthFromApollo17.jpg"));
         addCitation("Courtesy NASA/JPL-Caltech");
     }
 
