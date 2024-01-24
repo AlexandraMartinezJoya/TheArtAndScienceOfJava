@@ -17,7 +17,7 @@ public class XiaoXu extends IChingStone implements IChingLineNames {
     int number;
 
     public XiaoXu(){
-        image = new GImage("../IChingImages/IChingClasses.Lin.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/9.XiaoXu.jpg");
         element = "Earth, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "The taming of the power of the small" );
@@ -33,7 +33,7 @@ public class XiaoXu extends IChingStone implements IChingLineNames {
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "");
         divination = getDivinationText();
-        number = 20;
+        number = 9;
     }
 
     private HashMap getDivinationText(){

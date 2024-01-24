@@ -17,7 +17,7 @@ public class DaZhuang  extends IChingStone implements IChingLineNames {
     int number;
 
     public DaZhuang() {
-        image = new GImage("IChingImages/IChingClasses.DaZhuang.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/34.DaZhuang.jpg");
         element = "Thunder, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", " The power of the great" );

@@ -16,7 +16,7 @@ public class Kan extends IChingStone implements IChingLineNames {
     int number;
 
     public Kan() {
-        image = new GImage("../IChingImages/IChingClasses.Kan.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/29.Kan.jpg");
         element = "Water, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Danger" );

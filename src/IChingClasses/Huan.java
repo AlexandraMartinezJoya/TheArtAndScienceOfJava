@@ -17,7 +17,7 @@ public class Huan extends IChingStone implements IChingLineNames {
     int number;
 
     public Huan(){
-        image = new GImage("../IChingImages/IChingClasses.Huan.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/59.Huan.jpg");
         element = "Wind, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Dispersion");

@@ -16,12 +16,12 @@ public class Kun extends IChingStone implements IChingLineNames {
     int number;
 
     public Kun(){
-        image = new GImage("../IChingImages/IChingClasses.Kun.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/2.Kun.jpg");
         element = "Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Receptive" );
         qualities.put("2", "Adaptive");
-        qualities.put("3", "Yelding");
+        qualities.put("3", "Yielding");
         familyMember = "Mother";
         partOfBody = new HashMap<String, String>();
         partOfBody.put("1", "belly");

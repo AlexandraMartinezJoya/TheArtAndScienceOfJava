@@ -17,7 +17,7 @@ public class JianObstruction extends IChingStone implements IChingLineNames {
     int number;
 
     public JianObstruction() {
-        image = new GImage("IChingImages/IChingClasses.JianObstruction.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/39.JianObstruction.jpg");
         element = "Water, Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Limping" );

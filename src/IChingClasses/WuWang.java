@@ -16,7 +16,7 @@ public class WuWang extends IChingStone implements IChingLineNames {
     int number;
 
     public WuWang () {
-        image = new GImage("IChingImages/IChingClasses.WuWang.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/24.WuWang.jpg");
         element = "Heaven, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", " Without expectations" );

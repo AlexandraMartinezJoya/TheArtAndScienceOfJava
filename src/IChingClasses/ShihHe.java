@@ -17,7 +17,7 @@ public class ShihHe extends IChingStone implements IChingLineNames {
     int number;
 
     public ShihHe(){
-        image = new GImage("../IChingImages/IChingClasses.ShihHe.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/21.ShihHe.jpg");
         element = "Fire, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Reform" );

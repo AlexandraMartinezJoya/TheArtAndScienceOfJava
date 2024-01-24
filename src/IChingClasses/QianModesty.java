@@ -17,7 +17,7 @@ public class QianModesty extends IChingStone implements IChingLineNames {
     int number;
 
     public QianModesty() {
-        image = new GImage("IChingImages/IChingClasses.QianModesty.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/15.QianModesty.jpg");
         element = "";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Humility" );

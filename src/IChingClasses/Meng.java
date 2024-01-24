@@ -17,7 +17,7 @@ public class Meng extends IChingStone implements IChingLineNames {
     int number;
 
     public Meng() {
-        image = new GImage("IChingImages/YiNourishment.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/4.Meng.jpg");
         element = "Mountain, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Innocence");
@@ -27,7 +27,7 @@ public class Meng extends IChingStone implements IChingLineNames {
         qualities.put("6", "The Young Shoot");
         qualities.put("7", "BeginnersLuck");
         divination = getDivinationText();
-        number = 27;
+        number = 4;
     }
 
     private HashMap getDivinationText() {

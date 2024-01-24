@@ -17,7 +17,7 @@ public class Guan extends IChingStone implements IChingLineNames {
     int number;
 
     public Guan(){
-        image = new GImage("../IChingImages/IChingClasses.Guan.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/20.JianDevelopingGradually.jpg");
         element = "Wind, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Observation");

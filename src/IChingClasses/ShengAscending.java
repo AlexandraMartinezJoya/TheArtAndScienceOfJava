@@ -16,7 +16,7 @@ public class ShengAscending extends IChingStone implements IChingLineNames {
     int number;
 
     public ShengAscending(){
-        image = new GImage("../IChingImages/IChingClasses.ShengAscending.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/46.ShengAscending.jpg");
         element = "Earth, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Pushing upward" );

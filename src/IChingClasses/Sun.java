@@ -17,7 +17,7 @@ public class Sun extends IChingStone implements IChingLineNames {
     int number;
 
     public Sun() {
-        image = new GImage("IChingImages/SunDecrease.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/41.Sun.jpg");
         element = "Mountain, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Diminish" );

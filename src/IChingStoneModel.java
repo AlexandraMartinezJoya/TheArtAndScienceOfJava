@@ -8,8 +8,8 @@ public class IChingStoneModel extends GraphicsProgram {
 
     public IChingStoneModel(String lineOne, String lineTwo, String lineThree) {
         if(lineOne.equals("StraightLine") && lineTwo.equals("StraightLine") && lineThree.equals("StraightLine")){
-            modelImage = new GImage("IChingImages/Quian.png");
-            stoneName = "Quian";
+            modelImage = new GImage("IChingImages/Qian.png");
+            stoneName = "Qian";
         }
         if(lineOne.equals("StraightLine") && lineTwo.equals("StraightLine") && lineThree.equals("BrokenLine")) {
             modelImage = new GImage("IChingImages/Xun.png");

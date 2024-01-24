@@ -17,7 +17,7 @@ public class JiaRen extends IChingStone implements IChingLineNames {
     int number;
 
     public JiaRen(){
-        image = new GImage("../IChingImages/IChingClasses.JiaRen.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/37.JiaRen.jpg");
         element = "Wind, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "The household" );

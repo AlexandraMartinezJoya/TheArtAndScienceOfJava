@@ -17,7 +17,7 @@ public class Yu  extends IChingStone implements IChingLineNames {
     int number;
 
     public Yu() {
-        image = new GImage("IChingImages/IChingClasses.Yu.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/16.Yu.jpg");
         element = "Thunder, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Enthusiasm" );

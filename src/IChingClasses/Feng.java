@@ -17,7 +17,7 @@ public class Feng extends IChingStone implements IChingLineNames {
     int number;
 
     public Feng() {
-        image = new GImage("IChingImages/IChingClasses.Feng.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/55.Feng.jpg");
         element = "Thunder, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Abundence" );

@@ -17,7 +17,7 @@ public class DaGuoGreatAccumulation extends IChingStone implements IChingLineNam
     int number;
 
     public DaGuoGreatAccumulation(){
-        image = new GImage("../IChingImages/IChingClasses.DaGuoGreatAccumulation.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/28.DaGuoGreatAccumulation.jpg");
         element = "Lake, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "To much" );

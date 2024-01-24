@@ -17,7 +17,7 @@ public class GuaiResolution extends IChingStone implements IChingLineNames {
     int number;
 
     public GuaiResolution() {
-        image = new GImage("../IChingImages/IChingClasses.GuaiResolution.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/43.GuaiResolution.jpg");
         element = "Lake, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Resoluteness" );

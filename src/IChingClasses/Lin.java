@@ -17,7 +17,7 @@ public class Lin extends IChingStone implements IChingLineNames {
     int number;
 
     public Lin(){
-        image = new GImage("../IChingImages/IChingClasses.Lin.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/19.Lin.jpg");
         element = "Earth, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", "The crying pheasant" );
@@ -31,7 +31,7 @@ public class Lin extends IChingStone implements IChingLineNames {
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "");
         divination = getDivinationText();
-        number = 20;
+        number = 19;
     }
 
     private HashMap getDivinationText(){

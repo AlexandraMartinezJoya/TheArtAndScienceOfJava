@@ -17,7 +17,7 @@ public class MingYi extends IChingStone implements IChingLineNames {
     int number;
 
     public MingYi(){
-        image = new GImage("../IChingImages/IChingClasses.MingYi.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/36.MingYi.jpg");
         element = "Earth, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "The crying pheasant" );

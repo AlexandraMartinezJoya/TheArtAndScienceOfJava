@@ -17,7 +17,7 @@ public class Fu extends IChingStone implements IChingLineNames {
     int number;
 
     public Fu() {
-        image = new GImage("IChingImages/IChingClasses.Fu.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/24.Fu.jpg");
         element = "Wind, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Storm" );

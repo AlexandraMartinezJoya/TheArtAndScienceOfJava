@@ -17,7 +17,7 @@ public class DuiOverflowing extends IChingStone implements IChingLineNames {
     int number;
 
     public DuiOverflowing() {
-        image = new GImage("../IChingImages/IChingClasses.DuiOverflowing.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/47.DuiOverflowing.jpg");
         element = "Lake, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Exhaustion" );

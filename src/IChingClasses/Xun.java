@@ -16,8 +16,8 @@ public class Xun extends IChingStone implements IChingLineNames {
     int number;
 
     public Xun(){
-        image = new GImage("../IChingImages/IChingClasses.Xun.png");
-        element = "Earth";
+        image = new GImage("../IChingImages/UpToSixtyFour/57.Xun.jpg");
+        element = "Wind, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Gentle" );
         qualities.put("2", "Submissive");
@@ -26,7 +26,7 @@ public class Xun extends IChingStone implements IChingLineNames {
         familyMember = "Eldest Daughter";
         partOfBody = new HashMap<String, String>();
         partOfBody.put("1", "thigh");
-        animals = "Chicken";
+        animals = "";
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "Early Summer");
         seasonsAndWeather.put("2", "Mild Movement");
@@ -36,7 +36,7 @@ public class Xun extends IChingStone implements IChingLineNames {
 
     private HashMap getDivinationText(){
         HashMap divination = new HashMap<String, String>();
-        String title = "IChingClasses.Xun";
+        String title = "Xun - Gentle Influence";
         String keywords = "Compliance, Humility, Gentleness, Penetrating, Wind, Persistence";
         String theJudgement = "Gentle influence. Success in small matters. It is beneficial to have somewhere to go. It is beneficial to see a great person.";
         String theJudgementDescription = "The best way to affect the sittuation right now is through gentle, persistent action and subtle forms of influence. The text compares the right way of proceeding to that of wind. A mild breeze seems inconspicious. But it can penetrate everywhere. Its effects are gradual but are consistent over time. It is delightful and unassuming. Therefore, it is not feared or resisted but is gladly and gratefully accepted. And because it is accepted, it has influence.The key is to be both gentle and persistent. A violent of forceful approach will be counterproductive and meet with a rebuff. But a gentle approach will be more readily and, if you are persistent, will eventually have the right effect. Because you can only influence the sittuation in subtle ways, clarity and singlemindedness of purpose are essential. If you are uncertain about what you want or if you want to waste your time pursuing multiple and conflicting ends, your message will be dissipated and you will have no influence at all. Therefore, you must be absolutely clear in your mind what your goals are. Define your objectives and stick to them. The wind is the most powerful when it blows in one direction. You will not change the situation all at once, but only though steady and persistent influence. Things will proceed slowly, but if you have patience, over time you can have a significant effect. Restrain any impulsive tendencies. Be patient and flexible. Adjust to changing circumstances rather than fighting them, and continually look for opportunities to persuade and win people over to your side. Under no circumstances should you act aggressively or try and dominate the situation. That will surely backfire. Instead, let others take the lead. Stay in the background and serve them. You will make the most progress by subordonating yourself and making your presence felt in small but significant ways";

@@ -16,7 +16,7 @@ public class Zhen extends IChingStone implements IChingLineNames {
     int number;
 
     public Zhen(){
-        image = new GImage("IChingImages/Zhen.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/51.Zhen.jpg");
         element = "Thunder, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Energetic" );

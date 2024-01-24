@@ -17,7 +17,7 @@ public class DaXu  extends IChingStone implements IChingLineNames {
     int number;
 
     public DaXu() {
-        image = new GImage("IChingImages/IChingClasses.DaXu.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/26.DaXu.jpg");
         element = "Mountain, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Great Accumulation" );

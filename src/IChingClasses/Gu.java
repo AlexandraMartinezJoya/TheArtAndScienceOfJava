@@ -1,7 +1,6 @@
 package IChingClasses;
 
 import acm.graphics.GImage;
-
 import java.util.HashMap;
 
 public class Gu extends IChingStone implements IChingLineNames {
@@ -17,7 +16,7 @@ public class Gu extends IChingStone implements IChingLineNames {
     int number;
 
     public Gu(){
-        image = new GImage("../IChingImages/IChingClasses.Gu.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/18.Gu.jpg");
         element = "Mountain Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Blizzard" );
@@ -26,7 +25,7 @@ public class Gu extends IChingStone implements IChingLineNames {
         qualities.put("4", "Spin");
         qualities.put("5", "Misty spin");
         qualities.put("6", "Cloud");
-        qualities.put("7", "Vaccum");
+        qualities.put("7", "Vacuum");
         partOfBody = new HashMap<String, String>();
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "Late Winter");

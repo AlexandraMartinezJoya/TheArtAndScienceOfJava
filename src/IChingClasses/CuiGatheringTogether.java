@@ -17,7 +17,7 @@ public class CuiGatheringTogether extends IChingStone implements IChingLineNames
     int number;
 
     public CuiGatheringTogether(){
-        image = new GImage("../IChingImages/IChingClasses.CuiGatheringTogether.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/45.CuiGatheringTogether.jpg");
         element = "Lake, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Gathering" );
@@ -35,7 +35,7 @@ public class CuiGatheringTogether extends IChingStone implements IChingLineNames
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "");
         divination = getDivinationText();
-        number = 31;
+        number = 45;
     }
 
     private HashMap getDivinationText(){

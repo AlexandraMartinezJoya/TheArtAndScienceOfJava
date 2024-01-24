@@ -16,10 +16,10 @@ public class Gou extends IChingStone implements IChingLineNames {
     int number;
 
     public Gou () {
-        image = new GImage("IChingImages/IChingClasses.Gou.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/44.Gou.jpg");
         element = "Heaven, Wind";
         qualities = new HashMap<String, String>();
-        qualities.put("1", " Temptation" );
+        qualities.put("1", "Temptation" );
         qualities.put("2", "Brief encounter");
         qualities.put("3", "Coming to meet");
         qualities.put("4", "Coupling of opposites");

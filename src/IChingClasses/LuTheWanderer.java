@@ -19,7 +19,7 @@ public class LuTheWanderer extends IChingStone implements IChingLineNames {
     int number;
 
     public LuTheWanderer(){
-        image = new GImage("../IChingImages/IChingClasses.LuTheWanderer.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/56.LuTheWanderer.jpg");
         element = "";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Traveling" );
@@ -35,7 +35,7 @@ public class LuTheWanderer extends IChingStone implements IChingLineNames {
         animals = "";
         seasonsAndWeather = new HashMap<String, String>();
         divination = getDivinationText();
-        number = 21;
+        number = 56;
     }
 
     private HashMap getDivinationText(){

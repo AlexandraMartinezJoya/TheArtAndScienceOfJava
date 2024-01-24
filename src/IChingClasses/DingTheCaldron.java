@@ -17,7 +17,7 @@ public class DingTheCaldron extends IChingStone implements IChingLineNames {
     int number;
 
     public DingTheCaldron(){
-        image = new GImage("../IChingImages/IChingClasses.DingTheCaldron.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/50.DingTheCaldron.jpg");
         element = "Fire, Wind, wood";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Cultural renewal" );

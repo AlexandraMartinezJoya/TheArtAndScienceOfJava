@@ -16,7 +16,7 @@ public class Dui extends IChingStone implements IChingLineNames {
     int number;
 
     public Dui(){
-        image = new GImage("../IChingImages/IChingClasses.Dui.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/58.Dui.jpg");
         element = "Lake, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Joy" );

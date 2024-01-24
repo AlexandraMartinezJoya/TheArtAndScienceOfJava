@@ -17,7 +17,7 @@ public class Zhun  extends IChingStone implements IChingLineNames {
     int number;
 
     public Zhun() {
-        image = new GImage("IChingImages/IChingClasses.Zhun.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/3.Zhun.jpg");
         element = "Water, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Pushing up out of the ground" );

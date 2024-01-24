@@ -17,7 +17,7 @@ public class JinProgress extends IChingStone implements IChingLineNames {
     int number;
 
     public JinProgress(){
-        image = new GImage("../IChingImages/IChingClasses.JinProgress.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/35.JinProgress.jpg");
         element = "Fire, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Advance" );

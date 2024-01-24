@@ -17,7 +17,7 @@ public class Heng extends IChingStone implements IChingLineNames {
     int number;
 
     public Heng() {
-        image = new GImage("IChingImages/IChingClasses.Heng.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/32.Heng.jpg");
         element = "Thunder, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Enduring" );

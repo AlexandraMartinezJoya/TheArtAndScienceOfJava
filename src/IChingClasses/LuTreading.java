@@ -17,7 +17,7 @@ public class LuTreading extends IChingStone implements IChingLineNames {
     int number;
 
     public LuTreading() {
-        image = new GImage("IChingImages/IChingClasses.LuTreading.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/10.LuTreading.jpg");
         element = "Heaven, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", " Treading" );

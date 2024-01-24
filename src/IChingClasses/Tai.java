@@ -17,7 +17,7 @@ public class Tai extends IChingStone implements IChingLineNames {
     int number;
 
     public Tai() {
-        image = new GImage("IChingImages/IChingClasses.Tai.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/11.Tai.jpg");
         element = "Wind, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Peace" );

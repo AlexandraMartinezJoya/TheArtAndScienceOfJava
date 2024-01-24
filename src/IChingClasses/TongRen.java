@@ -16,7 +16,7 @@ public class TongRen extends IChingStone implements IChingLineNames {
     int number;
 
     public TongRen() {
-        image = new GImage("IChingImages/IChingClasses.TongRen.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/13.TongRen.jpg");
         element = "Heaven, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", " Joining with others" );

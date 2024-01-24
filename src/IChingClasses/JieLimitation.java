@@ -17,7 +17,7 @@ public class JieLimitation extends IChingStone implements IChingLineNames {
     int number;
 
     public JieLimitation() {
-        image = new GImage("IChingImages/IChingClasses.JieLimitation.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/60.JieLimitation.jpg");
         element = "Water, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Control" );

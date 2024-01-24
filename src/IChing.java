@@ -26,7 +26,7 @@ public class IChing extends GraphicsProgram {
     String coinFiveName;
     String coinSixName;
 
-
+    @SuppressWarnings("removal")
     public void run(){
         GImage minScreenSizeImage = new GImage("IChingImages/MinScreenSize/MinScreenSize375x667SamsungSEBorders.png");
         add(minScreenSizeImage);
@@ -42,11 +42,9 @@ public class IChing extends GraphicsProgram {
         coinOneName = coinFactory.coin.getCoinName();
         add(coinOne, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinOne);
         println("Coin one distance: " + coinOneDistance);
         println("Coin one name: " + coinOneName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinTwo = coinFactory.coin.create();
         coinTwoDistance = coinFactory.coin.getDistance();
@@ -54,11 +52,9 @@ public class IChing extends GraphicsProgram {
         coinTwoType = coinFactory.coin.getCoinType();
         add(coinTwo, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinTwo);
         println("Coin two distance: " + coinTwoDistance);
         println("Coin two name: " + coinTwoName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinThree = coinFactory.coin.create();
         coinThreeType = coinFactory.coin.getCoinType();
@@ -66,11 +62,9 @@ public class IChing extends GraphicsProgram {
         coinThreeDistance = coinFactory.coin.getDistance();
         add(coinThree, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinThree);
         println("Coin three distance: " + coinThreeDistance);
         println("Coin three name: " + coinThreeName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinFour = coinFactory.coin.create();
         coinFourDistance = coinFactory.coin.getDistance();
@@ -78,11 +72,9 @@ public class IChing extends GraphicsProgram {
         coinFourType = coinFactory.coin.getCoinType();
         add(coinFour, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinFour);
         println("Coin four distance: " + coinFourDistance);
         println("Coin four name: " + coinFourName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinFive = coinFactory.coin.create();
         coinFiveDistance = coinFactory.coin.getDistance();
@@ -90,11 +82,9 @@ public class IChing extends GraphicsProgram {
         coinFiveType = coinFactory.coin.getCoinType();
         add(coinFive, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinFive);
         println("Coin Five distance: " + coinFiveDistance);
         println("Coin Five name: " + coinFiveName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinSix = coinFactory.coin.create();
         coinSixDistance = coinFactory.coin.getDistance();
@@ -102,21 +92,17 @@ public class IChing extends GraphicsProgram {
         coinSixType = coinFactory.coin.getCoinType();
         add(coinSix, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinSix);
         println("Coin Six distance: " + coinSixDistance);
         println("Coin Six name: " + coinSixName);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         GImage coinDifferent = coinFactory.coinDifferent.create();
         IChingCoinTypes coinDifferentType = coinFactory.coinDifferent.getCoinType();
         int distanceCoinDifferent = coinFactory.coinDifferent.getDistance();
         add(coinDifferent, 50, 50);
         pause(800);
-        removeAll();
+        remove(coinDifferent);
         println("Coin Different: " + distanceCoinDifferent);
-        add(minScreenSizeImage);
-        minScreenSizeImage.sendBackward();
 
         int closestDistance = getClosestDistanceToCoinDifferent(coinOneDistance, coinTwoDistance, coinThreeDistance, coinFourDistance, coinFiveDistance, coinSixDistance, distanceCoinDifferent);
         String changingLine = "";
@@ -209,11 +195,13 @@ public class IChing extends GraphicsProgram {
         GImage secondStoneImage = secondStone.getImage();
         firstStoneImage.setSize(80, 70);
         secondStoneImage.setSize(80, 70);
-        add(firstStoneImage, getWidth()  /2.0 - firstStone.getWidth(), 10);
+        add(firstStoneImage, getWidth()  /2.0 - firstStone.getWidth() * 1.5, 10);
         add(secondStoneImage, getWidth()  /2.0 - secondStone.getWidth(), 10 + secondStoneImage.getHeight() );
-        AbstractIChingStoneFactory stoneFactory =   new AbstractIChingStoneFactory();
-        IChingStone thisStone = stoneFactory.createIChingStone(firstStone, secondStone);
-        println(thisStone);
+//        AbstractIChingStoneFactory stoneFactory =   new AbstractIChingStoneFactory();
+//        IChingStone thisStone = stoneFactory.createIChingStone(firstStone, secondStone);
+//        println(thisStone);
+        GImage quianImage = new Qian().getIChingImage();
+        add(quianImage);
 //        println("The DifferentLine: "+ lineDifferent);
 //        removeAll();
 //        Quian quian = new Quian();

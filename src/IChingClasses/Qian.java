@@ -16,7 +16,7 @@ public class Qian extends IChingStone implements IChingLineNames {
     int number;
 
     public Qian() {
-        image = new GImage("../IChingImages/Quian.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/1.Qian.jpg");
         element = "Heaven, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Creative" );

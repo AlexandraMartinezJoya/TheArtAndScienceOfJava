@@ -17,7 +17,7 @@ public class Song extends IChingStone implements IChingLineNames {
     int number;
 
     public Song () {
-        image = new GImage("IChingImages/IChingClasses.Song.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/6.Song.jpg");
         element = "Heaven, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", " Contention" );

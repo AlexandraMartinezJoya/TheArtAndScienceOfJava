@@ -17,7 +17,7 @@ public class Pi  extends IChingStone implements IChingLineNames {
     int number;
 
     public Pi () {
-        image = new GImage("IChingImages/IChingClasses.Pi.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/12.Pi.jpg");
         element = "Heaven, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", " Stagnation" );

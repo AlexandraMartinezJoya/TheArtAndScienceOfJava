@@ -17,12 +17,12 @@ public class XiaoGuo extends IChingStone implements IChingLineNames {
     int number;
 
     public XiaoGuo() {
-        image = new GImage("IChingImages/IChingClasses.XiaoGuo.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/62.XiaoGuo.jpg");
         element = "Thunder, Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Exceeding Smallness" );
         qualities.put("2", "Preponderance of the small");
-        qualities.put("3", "Smalless in excess");
+        qualities.put("3", "Smallness in excess");
         qualities.put("4", "Conscientiousness");
         qualities.put("5", "Keeping a low profile");
         qualities.put("6", "Reining in your ambitions");

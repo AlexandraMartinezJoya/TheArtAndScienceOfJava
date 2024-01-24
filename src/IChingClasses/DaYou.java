@@ -17,7 +17,7 @@ public class DaYou extends IChingStone implements IChingLineNames {
     int number;
 
     public DaYou(){
-        image = new GImage("../IChingImages/IChingClasses.DaYou.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/14.DaYou.jpg");
         element = "Fire, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Fire on top of heaven" );
@@ -35,7 +35,7 @@ public class DaYou extends IChingStone implements IChingLineNames {
         animals = "";
         seasonsAndWeather = new HashMap<String, String>();
         divination = getDivinationText();
-        number = 61;
+        number = 14;
     }
 
     private HashMap getDivinationText(){

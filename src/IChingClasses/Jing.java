@@ -17,7 +17,7 @@ public class Jing extends IChingStone implements IChingLineNames {
     int number;
 
     public Jing() {
-        image = new GImage("IChingImages/IChingClasses.Jing.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/48.Jing.jpg");
         element = "Water, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Human potential" );

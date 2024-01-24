@@ -17,7 +17,7 @@ public class Shi extends IChingStone implements IChingLineNames {
     int number;
 
     public Shi() {
-        image = new GImage("IChingImages/IChingClasses.Shi.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/7.Shi.jpg");
         element = "Earth, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Underground water" );
@@ -42,7 +42,7 @@ public class Shi extends IChingStone implements IChingLineNames {
         qualities.put("20", "Integrity");
         qualities.put("21", "The multitude");
         divination = getDivinationText();
-        number = 24;
+        number = 7;
     }
 
     private HashMap getDivinationText() {

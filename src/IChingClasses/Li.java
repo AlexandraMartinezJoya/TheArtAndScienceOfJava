@@ -16,7 +16,7 @@ public class Li extends IChingStone implements IChingLineNames {
     int number;
 
     public Li() {
-        image = new GImage("../IChingImages/IChingClasses.Li.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/30.Li.jpg");
         element = "Fire, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Fire" );

@@ -17,7 +17,7 @@ public class Jiji extends IChingStone implements IChingLineNames {
     int number;
 
     public Jiji() {
-        image = new GImage("IChingImages/JiJi.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/63.Jiji.jpg");
         element = "Water, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "After completion" );

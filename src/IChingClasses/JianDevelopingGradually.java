@@ -17,7 +17,7 @@ public class JianDevelopingGradually extends IChingStone implements IChingLineNa
     int number;
 
     public JianDevelopingGradually(){
-        image = new GImage("../IChingImages/IChingClasses.JianDevelopingGradually.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/53.JianDevelopingGradually.jpg");
         element = "Wind, Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Gradual advance");

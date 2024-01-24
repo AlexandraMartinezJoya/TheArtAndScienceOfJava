@@ -1,7 +1,6 @@
 package IChingClasses;
 
 import acm.graphics.GImage;
-
 import java.util.HashMap;
 
 public class BiUnion extends IChingStone implements IChingLineNames {
@@ -17,14 +16,14 @@ public class BiUnion extends IChingStone implements IChingLineNames {
     int number;
 
     public BiUnion() {
-        image = new GImage("IChingImages/IChingClasses.BiUnion.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/54.BiUnion.jpg");
         element = "Water, Earth";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Joining with others" );
         qualities.put("2", "Joining in");
         qualities.put("3", "Rallying around a leader");
         divination = getDivinationText();
-        number = 8;
+        number = 54;
     }
 
     private HashMap getDivinationText() {

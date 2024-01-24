@@ -17,7 +17,7 @@ public class Sui extends IChingStone implements IChingLineNames {
     int number;
 
     public Sui() {
-        image = new GImage("../IChingImages/IChingClasses.Sui.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/17.Sui.jpg");
         element = "Lake, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Following" );

@@ -17,7 +17,7 @@ public class YiIncrease extends IChingStone implements IChingLineNames {
     int number;
 
     public YiIncrease(){
-        image = new GImage("../IChingImages/IChingClasses.YiIncrease.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/42.YiIncrease.jpg");
         element = "Wind, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Benefit");

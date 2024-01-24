@@ -17,7 +17,7 @@ public class Jie extends IChingStone implements IChingLineNames {
     int number;
 
     public Jie() {
-        image = new GImage("IChingImages/IChingClasses.Jie.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/40.Jie.jpg");
         element = "Thunder, Water";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Deliverance" );

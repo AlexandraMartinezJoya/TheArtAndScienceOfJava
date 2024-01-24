@@ -17,7 +17,7 @@ public class XianMutualInfluence extends IChingStone implements IChingLineNames 
     int number;
 
     public XianMutualInfluence(){
-        image = new GImage("../IChingImages/IChingClasses.XianMutualInfluence.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/31.XianMutualInfluence.jpg");
         element = "Lake, Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Influence" );

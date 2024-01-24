@@ -20,7 +20,7 @@ public class WeiJi extends IChingStone implements IChingLineNames {
     int number;
 
     public WeiJi(){
-        image = new GImage("../IChingImages/IChingClasses.WeiJi.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/64.WeiJi.jpg");
         element = "Fire, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Reform" );
@@ -34,7 +34,7 @@ public class WeiJi extends IChingStone implements IChingLineNames {
         animals = "";
         seasonsAndWeather = new HashMap<String, String>();
         divination = getDivinationText();
-        number = 21;
+        number = 64;
     }
 
     private HashMap getDivinationText(){

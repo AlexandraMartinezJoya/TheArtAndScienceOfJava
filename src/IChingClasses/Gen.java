@@ -16,7 +16,7 @@ public class Gen extends IChingStone implements IChingLineNames {
     int number;
 
     public Gen(){
-        image = new GImage("../IChingImages/IChingClasses.Gen.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/52.Gen.jpg");
         element = "Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Stillness" );

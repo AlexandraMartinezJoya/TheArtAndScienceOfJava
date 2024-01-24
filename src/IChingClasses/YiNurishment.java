@@ -17,7 +17,7 @@ public class YiNurishment extends IChingStone implements IChingLineNames {
     int number;
 
     public YiNurishment() {
-        image = new GImage("IChingImages/YiNourishment.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/27.DaXu.jpg");
         element = "Mountain, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Nourishing others");

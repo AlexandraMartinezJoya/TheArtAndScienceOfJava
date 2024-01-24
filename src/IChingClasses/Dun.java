@@ -17,7 +17,7 @@ public class Dun extends IChingStone implements IChingLineNames {
     int number;
 
     public Dun () {
-        image = new GImage("IChingImages/IChingClasses.Dun.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/33.Dun.jpg");
         element = "Heaven, Mountain";
         qualities = new HashMap<String, String>();
         qualities.put("1", " The piglet" );

@@ -17,7 +17,7 @@ public class KuiOpposition extends IChingStone implements IChingLineNames {
     int number;
 
     public KuiOpposition() {
-        image = new GImage("../IChingImages/IChingClasses.KuiOpposition.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/38.KuiOpposition.jpg");
         element = "Fire, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Estrangement" );
@@ -34,7 +34,7 @@ public class KuiOpposition extends IChingStone implements IChingLineNames {
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "Middle Summer");
         divination = getDivinationText();
-        number = 30;
+        number = 38;
     }
 
     private HashMap getDivinationText(){

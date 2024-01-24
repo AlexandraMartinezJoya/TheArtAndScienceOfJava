@@ -17,7 +17,7 @@ public class Xu extends IChingStone implements IChingLineNames {
     int number;
 
     public Xu() {
-        image = new GImage("IChingImages/IChingClasses.Xu.png");
+        image = new GImage("../IChingImages/UpToSixtyFour/5.Xu.jpg");
         element = "Water, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Calculated waiting" );
