@@ -81,5 +81,6 @@ public class ShihHe extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
-    void create() { new ShihHe();}
+    @Override
+   public void create() { new ShihHe();}
 }

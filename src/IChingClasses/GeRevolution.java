@@ -17,7 +17,7 @@ public class GeRevolution extends IChingStone implements IChingLineNames {
     int number;
 
     public GeRevolution(){
-        image = new GImage("../IChingImages/UpToSixtyFour/49.DaGuoGreatAccumulation.jpg");
+        image = new GImage("../IChingImages/UpToSixtyFour/49.GeRevolution.jpg");
         element = "Lake, Fire";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Molting" );
@@ -86,5 +86,6 @@ public class GeRevolution extends IChingStone implements IChingLineNames {
 
     public int getNumber(){return number;}
 
-    void create() { new GeRevolution();}
+    @Override
+    public void create() { new GeRevolution();}
 }

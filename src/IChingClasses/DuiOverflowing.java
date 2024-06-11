@@ -89,5 +89,6 @@ public class DuiOverflowing extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new DuiOverflowing();}
+    @Override
+    public void create() { new DuiOverflowing();}
 }

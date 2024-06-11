@@ -1,12 +1,13 @@
 import IChingClasses.*;
 import acm.graphics.GImage;
+import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
-import acm.util.RandomGenerator;
+
 import java.lang.Math;
+import java.util.HashMap;
 
 public class IChing extends GraphicsProgram {
 
-    private RandomGenerator rgen = RandomGenerator.getInstance();
     int coinOneDistance;
     int coinTwoDistance;
     int coinThreeDistance;
@@ -105,7 +106,7 @@ public class IChing extends GraphicsProgram {
         println("Coin Different: " + distanceCoinDifferent);
 
         int closestDistance = getClosestDistanceToCoinDifferent(coinOneDistance, coinTwoDistance, coinThreeDistance, coinFourDistance, coinFiveDistance, coinSixDistance, distanceCoinDifferent);
-        String changingLine = "";
+        String changingLine;
         if ((closestDistance + distanceCoinDifferent) == coinOneDistance) {
             changingLine = "CoinOne";
         } else if ((closestDistance + distanceCoinDifferent) == coinTwoDistance) {
@@ -195,13 +196,31 @@ public class IChing extends GraphicsProgram {
         GImage secondStoneImage = secondStone.getImage();
         firstStoneImage.setSize(80, 70);
         secondStoneImage.setSize(80, 70);
-        add(firstStoneImage, getWidth()  /2.0 - firstStone.getWidth() * 1.5, 10);
-        add(secondStoneImage, getWidth()  /2.0 - secondStone.getWidth(), 10 + secondStoneImage.getHeight() );
-//        AbstractIChingStoneFactory stoneFactory =   new AbstractIChingStoneFactory();
-//        IChingStone thisStone = stoneFactory.createIChingStone(firstStone, secondStone);
-//        println(thisStone);
-        GImage quianImage = new Qian().getIChingImage();
-        add(quianImage);
+        add(firstStoneImage, getWidth()  /2.0 - firstStone.getWidth(), 10);
+        add(secondStoneImage, getWidth()  /2.0 - secondStone.getWidth(), 10 + secondStoneImage.getHeight());
+        AbstractIChingStoneFactory stoneFactory =  new AbstractIChingStoneFactory();
+        IChingStone thisStone = stoneFactory.createIChingStone(firstStone, secondStone);
+        HashMap divination = thisStone.getDivination();
+        Object title = divination.get("Title");
+        GLabel titleLabel = new GLabel( title.toString());
+        titleLabel.setFont("Monospaced-24-bold");
+        add(titleLabel, getWidth()  /2.0 - secondStone.getWidth() - titleLabel.getWidth() / 2, 10 + secondStoneImage.getHeight()  * 2 + titleLabel.getHeight());
+        Object divinationKeywords = divination.get("Keywords");
+        GLabel keywordsLabel = new GLabel(divinationKeywords.toString());
+        keywordsLabel.setFont("Monospaced-16-bold");
+        double margin = 15.0;
+        double windowWidth = this.getWidth();
+        double keywordsLabelWidth = keywordsLabel.getWidth();
+        println("Window width is: " + windowWidth + " while keywordsLabelWidth is " + keywordsLabelWidth);
+       // add(keywordsLabel, margin,  10 + secondStoneImage.getHeight()  * 2 + titleLabel.getHeight() + 10 + keywordsLabel.getHeight());
+        double xCoord = margin;
+        double yCoord = 10 + secondStoneImage.getHeight()  * 2 + titleLabel.getHeight() + 10 + keywordsLabel.getHeight();
+        yCoord = formatGLabelToFitScreenAndReturnYInitialPos(keywordsLabelWidth, windowWidth, margin, divinationKeywords.toString(), xCoord, yCoord);
+        int number = thisStone.getNumber();
+        GLabel numberLabel = new GLabel("Number is: " + number);
+        numberLabel.setFont("Monospaced-16-bold");
+        add(numberLabel, margin, yCoord + 10 +numberLabel.getHeight());
+
 //        println("The DifferentLine: "+ lineDifferent);
 //        removeAll();
 //        Quian quian = new Quian();
@@ -209,7 +228,7 @@ public class IChing extends GraphicsProgram {
     }
 
     private String extractedType(IChingCoinTypes coinThreeType) {
-        String lineThree = "";
+        String lineThree;
         if(coinThreeType.toString().equals("HEADS")) {
               lineThree = "StraightLine";
         } else {
@@ -219,7 +238,7 @@ public class IChing extends GraphicsProgram {
     }
 
     private String extractedDifferentType(IChingCoinTypes coinDifferentType) {
-        String lineDifferent = "";
+        String lineDifferent ;
         if(coinDifferentType.toString().equals("HEADS")) {
             lineDifferent = "StraightLine";
         } else {
@@ -229,11 +248,11 @@ public class IChing extends GraphicsProgram {
     }
 
     private int getClosestDistanceToCoinDifferent(int num1, int num2, int num3, int num4, int num5, int num6, int numDifferent){
-        int closestValueToDifferent = 0;
-        int secondClosest = 0;
-        int closestValueBetweenOneAndTwo = 0;
-        int closestValueBetweenThreeAndFour = 0;
-        int closestValueBetweenFiveAndSix = 0;
+        int closestValueToDifferent;
+        int secondClosest;
+        int closestValueBetweenOneAndTwo ;
+        int closestValueBetweenThreeAndFour;
+        int closestValueBetweenFiveAndSix;
 
         int differenceBetweenNumOneAndDifferent = changeNumToPositiveValue(num1 - numDifferent);
         int differenceBetweenNumTwoAndDifferent = changeNumToPositiveValue( num2 - numDifferent);
@@ -249,23 +268,9 @@ public class IChing extends GraphicsProgram {
         println("Difference between five and different is: " + differenceBetweenNumFiveAndDifferent);
         println("Difference between six and different is: " + differenceBetweenNumSixAndDifferent);
 
-        if(differenceBetweenNumOneAndDifferent <= differenceBetweenNumTwoAndDifferent){
-            closestValueBetweenOneAndTwo = differenceBetweenNumOneAndDifferent;
-        } else {
-            closestValueBetweenOneAndTwo = differenceBetweenNumTwoAndDifferent;
-        }
-
-        if(differenceBetweenNumThreeAndDifferent <= differenceBetweenNumFourAndDifferent){
-            closestValueBetweenFiveAndSix = differenceBetweenNumThreeAndDifferent;
-        } else {
-            closestValueBetweenFiveAndSix = differenceBetweenNumFourAndDifferent;
-        }
-
-        if(differenceBetweenNumFiveAndDifferent <= differenceBetweenNumSixAndDifferent){
-            closestValueBetweenThreeAndFour = differenceBetweenNumFiveAndDifferent;
-        } else {
-            closestValueBetweenThreeAndFour = differenceBetweenNumSixAndDifferent;
-        }
+        closestValueBetweenOneAndTwo = Math.min(differenceBetweenNumOneAndDifferent, differenceBetweenNumTwoAndDifferent);
+        closestValueBetweenFiveAndSix = Math.min(differenceBetweenNumThreeAndDifferent, differenceBetweenNumFourAndDifferent);
+        closestValueBetweenThreeAndFour = Math.min(differenceBetweenNumFiveAndDifferent, differenceBetweenNumSixAndDifferent);
 
         println("Closest between one And Two difference: " + closestValueBetweenOneAndTwo);
         println("Closest between three And Four difference: " + closestValueBetweenThreeAndFour);
@@ -294,4 +299,48 @@ public class IChing extends GraphicsProgram {
         }
         else return differenceBetweenNumFiveAndDifferent;
     }
+
+    private double formatGLabelToFitScreenAndReturnYInitialPos(double labelWidth, double screenWidth, double margin, String labelText, double doubleWidthCoord, double doubleHeightCoord){
+        String[] textSplit =splitLabelTextByDelimiter(labelText);
+        //println(textSplit);
+        GLabel[] labels = new GLabel[textSplit.length];
+        double[] labelsLength = new double[textSplit.length];
+        Double yCoord = doubleHeightCoord;
+        for(int i = 0; i < textSplit.length; i++) {
+            println(textSplit[i]);
+            labels[i] = new GLabel(textSplit[i]);
+            labels[i].setFont("Monospaced-14-bold");
+            labelsLength[i] = labels[i].getWidth();
+             yCoord = yCoord + labels[i].getHeight() + 5;
+            if(labels[i].getWidth() + 2 * margin < screenWidth){
+                add(labels[i], doubleWidthCoord, yCoord);
+            }
+        }
+        return yCoord;
+    }
+
+    private String[] splitLabelTextByDelimiter(String keywordsText){
+        String[] textSplit = new String[MAX_KEYWORDS];
+        char delimiter = ',';
+        int positionOfDelimiter;
+        CharSequence delimiterSequence = ", " ;
+        int count = 0;
+        for (int i = 0; i < keywordsText.length(); i++) {
+            if(keywordsText.contains(delimiterSequence)){
+                count = i;
+                positionOfDelimiter = keywordsText.indexOf(delimiter);
+                String firstWord = keywordsText.substring(0, positionOfDelimiter);
+                textSplit[i] = firstWord;
+                keywordsText = keywordsText.substring(positionOfDelimiter + 2);
+
+            }
+        }
+        String[] textSplitWithoutNull = new String[count];
+        for(int i = 0; i < textSplitWithoutNull.length; i++) {
+            textSplitWithoutNull[i] = textSplit[i];
+        }
+        return textSplitWithoutNull;
+    }
+
+    private final int MAX_KEYWORDS = 50;
 }

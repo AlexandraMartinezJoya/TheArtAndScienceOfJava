@@ -2,7 +2,7 @@ import IChingClasses.*;
 
 public class AbstractIChingStoneFactory {
 
-    IChingStone iChingStone;
+    public IChingStone iChingStone;
 
     public IChingStone createIChingStone(IChingStoneModel one, IChingStoneModel two){
         String stoneOneName = one.getStoneName();

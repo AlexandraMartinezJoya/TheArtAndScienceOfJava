@@ -84,5 +84,6 @@ public class KuiOpposition extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new KuiOpposition();}
+    @Override
+    public void create() { new KuiOpposition();}
 }

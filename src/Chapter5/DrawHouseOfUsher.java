@@ -1,4 +1,4 @@
-package acm.jar.java.Chapter5;
+package Chapter5;
 
 import acm.graphics.GLine;
 import acm.graphics.GOval;

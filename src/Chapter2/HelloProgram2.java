@@ -57,7 +57,6 @@ public class HelloProgram2  extends GraphicsProgram {
         label.setColor(Color.DARK_GRAY);
         add(line);
 
-
         add(label);
         add(alex);
         add(msg);

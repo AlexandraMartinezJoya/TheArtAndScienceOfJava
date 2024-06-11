@@ -86,5 +86,6 @@ public class JiaRen extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
-    void create() { new JiaRen();}
+    @Override
+   public void create() { new JiaRen();}
 }

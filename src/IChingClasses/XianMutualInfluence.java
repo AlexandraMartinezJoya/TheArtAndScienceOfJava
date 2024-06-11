@@ -83,6 +83,7 @@ public class XianMutualInfluence extends IChingStone implements IChingLineNames 
 
     public int getNumber() { return number; }
 
-    void create() { new XianMutualInfluence();}
+    @Override
+    public void create() { new XianMutualInfluence();}
 
 }

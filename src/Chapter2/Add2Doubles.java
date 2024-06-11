@@ -13,8 +13,8 @@ public class Add2Doubles extends ConsoleProgram {
         println("this program adds two doubles");
         double flour = readDouble("Enter first number: ");
         double eggs = readDouble("Enter second number: ");
-        double butter = readDouble("Enter second number: ");
-        double raisins = readDouble("Enter second number: ");
+        double butter = readDouble("Enter third number: ");
+        double raisins = readDouble("Enter fourth number: ");
 
         double flourRaisins = flour + raisins;
         double butteredEggs = eggs + butter;

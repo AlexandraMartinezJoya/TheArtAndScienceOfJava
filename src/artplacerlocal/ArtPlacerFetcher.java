@@ -20,6 +20,9 @@ public class ArtPlacerFetcher  extends ConsoleProgram {
         listOfPendingUrls.add("https://www.artplacer.com/pricing/");
         listOfPendingUrls.add("https://www.artplacer.com/");
         listOfPendingUrls.add("https://www.artplacer.com/tools-for-artists-and-galleries/");
+        listOfPendingUrls.add("https://www.behance.net/galleries/3d-art");
+        listOfPendingUrls.add("https://www.behance.net/galleries/photography");
+        listOfPendingUrls.add("https://www.behance.net/galleries/fine-arts");
         listOfPendingUrls.add(startingUrl);
 
         ArrayList<String> listOfTraversedUrls = new ArrayList<>();

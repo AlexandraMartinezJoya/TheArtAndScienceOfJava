@@ -24,7 +24,7 @@ public class Pi  extends IChingStone implements IChingLineNames {
         qualities.put("2", "Blockage");
         qualities.put("3", "Misfortune");
         qualities.put("4", "Disharmony");
-        qualities.put("5", "Hinderance");
+        qualities.put("5", "Hindrance");
         qualities.put("6", "Standstill");
         divination = getDivinationText();
         number = 12;
@@ -75,6 +75,7 @@ public class Pi  extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
+    @Override
     public void create() {
         new Pi();
     }

@@ -85,5 +85,6 @@ public class CuiGatheringTogether extends IChingStone implements IChingLineNames
 
     public int getNumber() { return number; }
 
-    void create() { new CuiGatheringTogether();}
+    @Override
+    public void create() { new CuiGatheringTogether();}
 }

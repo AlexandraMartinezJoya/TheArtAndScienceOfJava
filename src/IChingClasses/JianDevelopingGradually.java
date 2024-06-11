@@ -80,5 +80,6 @@ public class JianDevelopingGradually extends IChingStone implements IChingLineNa
 
     public int getNumber() { return number;}
 
-    void create() { new JianDevelopingGradually();}
+    @Override
+    public void create() { new JianDevelopingGradually();}
 }

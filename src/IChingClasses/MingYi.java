@@ -81,5 +81,6 @@ public class MingYi extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new MingYi();}
+    @Override
+    public void create() { new MingYi();}
 }

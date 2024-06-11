@@ -85,5 +85,6 @@ public class DaYou extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
-    void create() { new DaYou();}
+    @Override
+    public void create() { new DaYou();}
 }

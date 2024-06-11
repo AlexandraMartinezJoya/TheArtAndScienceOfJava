@@ -8,10 +8,9 @@ import java.util.Scanner;
 
 public class ArtOfTheDayDataParser extends ConsoleProgram {
 
-    public void run(){
+    public void run() {
 
-    //img to find which has class js-cover-image
-
+        //img to find which has class js-cover-image
         Date day = new Date();
         String formattedToday = day.toString();
         String year =  getYear(formattedToday);
@@ -21,7 +20,7 @@ public class ArtOfTheDayDataParser extends ConsoleProgram {
 
         String path = "MonolinksNewArtOfTheDayGenerator" + dayDateFormat + ".html";
         File artFoundOnline = new File(path);
-        File imagePath = new File("ImageOfTheDay.txt");
+        File imagePath = new File("ImageOfTheDay.jpg");
         println(artFoundOnline);
         try {
             Scanner input = new Scanner(artFoundOnline);

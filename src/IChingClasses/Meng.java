@@ -21,11 +21,12 @@ public class Meng extends IChingStone implements IChingLineNames {
         element = "Mountain, Thunder";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Innocence");
-        qualities.put("2", "BeginnersLuck");
-        qualities.put("4", "YouthfulFolly");
-        qualities.put("5", "WisdomNotYetRevealed");
-        qualities.put("6", "The Young Shoot");
-        qualities.put("7", "BeginnersLuck");
+        qualities.put("2", "Ignorance");
+        qualities.put("4", "Immaturity");
+        qualities.put("5", "Youthful folly");
+        qualities.put("6", "Wisdom not yet revealed");
+        qualities.put("7", "The young shoot");
+        qualities.put("8", "Beginner’s luck");
         divination = getDivinationText();
         number = 4;
     }
@@ -75,7 +76,6 @@ public class Meng extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
-    public void create() {
-        new Meng();
-    }
+    @Override
+    public void create() {new Meng();}
 }

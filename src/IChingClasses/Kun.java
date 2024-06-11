@@ -82,5 +82,6 @@ public class Kun extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new Kun();}
+    @Override
+    public void create() { new Kun();}
 }

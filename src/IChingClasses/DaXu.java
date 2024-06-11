@@ -30,6 +30,7 @@ public class DaXu  extends IChingStone implements IChingLineNames {
         qualities.put("9", "Gathering knowledge");
         qualities.put("10", "Cultivating your abilities");
         qualities.put("11", "Improving yourself");
+        qualities.put("12", "Great care");
         divination = getDivinationText();
         number = 26;
     }
@@ -80,6 +81,7 @@ public class DaXu  extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
+    @Override
     public void create() {
         new DaXu();
     }

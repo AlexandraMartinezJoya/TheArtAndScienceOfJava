@@ -84,5 +84,6 @@ public class YiIncrease extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new YiIncrease();}
+    @Override
+    public void create() { new YiIncrease();}
 }

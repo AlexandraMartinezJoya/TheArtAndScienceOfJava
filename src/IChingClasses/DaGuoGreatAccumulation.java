@@ -84,5 +84,6 @@ public class DaGuoGreatAccumulation extends IChingStone implements IChingLineNam
 
     public int getNumber(){return number;}
 
-    void create() { new DaGuoGreatAccumulation();}
+    @Override
+    public void create() { new DaGuoGreatAccumulation();}
 }

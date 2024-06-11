@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class FindMeGoodWeather extends ConsoleProgram {
 
     public void run(){
-        String url = "https://www.google.com/search?q=found+frequencies";
+        String url = "https://www.google.com/search?q=monolink";
         crawler(url);
     }
 

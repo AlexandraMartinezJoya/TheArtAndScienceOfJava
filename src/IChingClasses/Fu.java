@@ -100,6 +100,7 @@ public class Fu extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
+    @Override
     public void create() {
         new Fu();
     }

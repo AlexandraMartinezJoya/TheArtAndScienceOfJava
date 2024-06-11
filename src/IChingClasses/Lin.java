@@ -81,5 +81,6 @@ public class Lin extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number; }
 
-    void create() { new Lin();}
+    @Override
+    public void create() { new Lin();}
 }

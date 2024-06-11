@@ -78,6 +78,7 @@ public class Jing extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
+    @Override
     public void create() {
         new Jing();
     }

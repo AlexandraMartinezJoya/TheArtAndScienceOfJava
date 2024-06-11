@@ -85,5 +85,6 @@ public class DingTheCaldron extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
-    void create() { new DingTheCaldron();}
+    @Override
+    public void create() { new DingTheCaldron();}
 }

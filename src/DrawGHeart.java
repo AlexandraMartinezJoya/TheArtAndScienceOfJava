@@ -12,8 +12,8 @@ public class DrawGHeart extends GraphicsProgram {
         heart.setColor(Color.RED);
         heart.setFilled(true);
         heart.setFillColor(Color.RED);
-        add(heart, 300, 300);
+        add(heart, 150, 300);
     }
-    private final double DIAMOND_SIDE = 100;
+    private final double DIAMOND_SIDE = 50;
 
 }

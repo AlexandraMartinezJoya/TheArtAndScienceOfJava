@@ -1,4 +1,4 @@
-package acm.jar.java.Chapter5;
+package Chapter5;
 
 public class MazeRunningRobot {
 }
