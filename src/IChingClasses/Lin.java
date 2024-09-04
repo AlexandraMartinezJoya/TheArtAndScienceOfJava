@@ -7,6 +7,7 @@ import java.util.HashMap;
 public class Lin extends IChingStone implements IChingLineNames {
 
     GImage image;
+    String imagePath;
     String element;
     HashMap qualities;
     String familyMember;
@@ -17,16 +18,13 @@ public class Lin extends IChingStone implements IChingLineNames {
     int number;
 
     public Lin(){
-        image = new GImage("../IChingImages/UpToSixtyFour/19.Lin.jpg");
+        imagePath = "../IChingImages/UpToSixtyFour/19.Lin.jpg";
+        image = new GImage(imagePath);
         element = "Earth, Lake";
         qualities = new HashMap<String, String>();
-        qualities.put("1", "The crying pheasant" );
-        qualities.put("2", "Eclipse");
-        qualities.put("3", "Hiding one's light");
-        qualities.put("4", "Brilliance injured,");
-        qualities.put("5", "Censorship");
-        qualities.put("6", "Keeping a low profile");
-        qualities.put("7", "Hiding your feelings");
+        qualities.put("1","Approach");
+        qualities.put("2","Oversight");
+        qualities.put("3","Cooperation");
         partOfBody = new HashMap<String, String>();
         seasonsAndWeather = new HashMap<String, String>();
         seasonsAndWeather.put("1", "");
@@ -36,11 +34,11 @@ public class Lin extends IChingStone implements IChingLineNames {
 
     private HashMap getDivinationText(){
         HashMap divination = new HashMap<String, String>();
-        String title = "Ming IChingClasses.Yi ";
-        String keywords = "The crying pheasant, eclipse, hiding one's light, brilliance injured, censorship, keeping a low profile, hiding your feelings";
-        String theJudgement = "Darkening of the Light, In adversity, it is beneficial to persevere.";
-        String theJudgementDescription = "You face unfavorable circumstances. You encounter criticism and opposition, you projects fail to prosper, or those who have control over your life lack confidence in you. Whatever the problem, there is little that you can do about it for the time being. You must wait out the bad times until things take a turn for the better. Because you are currently trapped in a hostile environment, the best strategy right now is to keep a low profile. You must hide your light. If you try to assert yourself, the people who surround you will not be sympathetic and will rebuff you. If you object to your treatment, people will not understand, and you may make things even worse for yourself. Instead of protesting, it is better to allow those in your environment to believe that you accept the situation. Someone may be jealous of you or resent you. You should not give them an opportunity to harm you. Do not be aggressive and do not call attention to yourself. This is no time to pick a fight. Conditions are not in your favor right now, and you do not have the resources to prevail. Nevertheless, during this difficult time you must continue to have faith in yourself. Do not give up just because things are not going well. As the text says, in times of adversity, it is beneficial to remain steadfast and to persevere. It is a test of your will and your endurance. You must preserve your inner light - the still, small voice within. Do not let the darkness on the outside extinguish the light on the inside, for then there will be nothing left of you when times improve. People and events will surely provoke you. But you must maintain your composure and your emotional compass. Do not let what others say and do cause you to lose heart. You cannot let their ignorace or their bad judgement undermine your self-confidence. They see only a small part of the picture. Their values are not your values. And even though things seem rough right now, time has a way of turning present disadvantages into seeds of later advantages. You will not be down forever. Hostile circumstances require you to accept the situation for the time being. You must allow people to think that you acquiesce and are going along. But you must never surrender. Maintain your resistance on the inside. Hold fast to your enduring values and to your ultimate goals. Remember who you are and what you stand for. Even though there is little that you can do at present, you must preserve your integrity during these dark times. Keep your heart and soul steadfast and ever fixed on what is most important. Eventually, things will change for the better, and you will prevail.";
-        String theImage = "The light has descended into the center of the earth, this is the image of darkening of light, thus the superior person oversees the masses. He hides his light, yet it still shines.";
+        String title = "Lin Overseeing";
+        String keywords = "Approach, Oversight, Cooperation";
+        String theJudgement = "Overseeing, supreme success, It is beneficial to persevere, when the eight month comes there will be misfortune";
+        String theJudgementDescription = "By tradition, Lin is a symbol of springtime. More generally, it symbolizes happy joyous times of natural progress and advancement, like the first stirrings of spring. The low advance upward to the high, who happily accepts them.Matters move forward naturally. Relationships thrive. Success blossoms like the flowers of spring.However, just like growth during springtime, everything must take it's natural course. Do not try to hurry things, let matters develop in a normal and healthy fashion. Full growth is not achieved in the spring, but in the summertime. Thus, you should not become impatient, success will come eventually come if you lay strong foundations now and if you nurture things appropriately.Energy and initiative are important during this time. Make the most of opportunities for growth when they present themselves. This is an especially fertile period, so be on the lookout for ways to improve your situation and your relationships with others. Encourage people who work under you and help them advance.  Think of them like young plants in springtime that needed to be tended and helped so that they will grow upward and become healthy, beautifull, and strong.  Finally, remember that spring does not last forever. Good times will eventually evaporate, so it's important to make most of them while they last. Hence the text says 'In the eight month' (September in the Chinese Calendar) 'there will be missfortune'. because summer is fading away and autumn is approaching. For this reason it is important to nip problems in the bud before they have a chance to grow large. Keep your eyes for difficulty or deterioration. If you make the effort now, you will be in a much stronger position when you face obstacles in the future. Take advantage of this favorable time to establish the groundwork for future success. ";
+        String theImage = "The earth is above the lake, this is the image of overseeing. Thus , the superior person teaches and shows concern without exhaustion, tolerating and protecting the people without limit";
         divination.put("Title", title);
         divination.put("Keywords", keywords);
         divination.put("The Judgement", theJudgement);
@@ -80,6 +78,8 @@ public class Lin extends IChingStone implements IChingLineNames {
     public HashMap getDivination() { return divination;}
 
     public int getNumber() { return number; }
+
+    public String getImagePath() {return imagePath;}
 
     @Override
     public void create() { new Lin();}

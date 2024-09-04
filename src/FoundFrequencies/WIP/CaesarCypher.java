@@ -2,6 +2,18 @@ package FoundFrequencies.WIP;
 
 import acm.program.ConsoleProgram;
 
+/**
+ * 1. Each syllable is composed of three parts: initial, final and tone. There are 21 initials, 36 finals, 4 tones and a neutral tone.
+ *
+ * *	 The syllables in this line has no initial, only formed by final.
+ * **	 The syllables in this line has no initial, “i” is substituted by “y” and “ü” is substituted by “yu” in the compound finals.
+ * ***	 The syllables in this line has no initial, “u” is substituted by “w” in the compound finals.
+ * ****	 “yo” is a special syllable. The pronounciation is similar to “io.”
+ * 2. An empty cell on the table indicates that the corresponding syllable does not exist in standard Mandarin.
+ *
+ * 3. The chart displays only the tone variations that exist in standard Mandarin.
+ */
+
 public class CaesarCypher extends ConsoleProgram {
 
     private final String ALPHABET = "abcdefghijklmnoqprstuvwxyz";
@@ -10,6 +22,10 @@ public class CaesarCypher extends ConsoleProgram {
     private final String CAPITAL_GREEK_ALPHABET = "ΑΒΓΔΕΖΗΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩϜϚͰϺϞϠϷ";
     private final String CYRILIC_ALPHABET = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяіѣѳѵ";
     private final String CAPITAL_CYRILIC_ALPHABET = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯІѢѲѴ";
+    private final String Starting_English_Mandarin = "";
+    private final String Mid_Englsih_Mandarin = "";
+    private final String Ending_English_Mandarin = "";
+    private final String Unicode_Range_For_Mandarin = "";
 
     public void run(){
         println("This program encodes a message using Ceasar Cypher");

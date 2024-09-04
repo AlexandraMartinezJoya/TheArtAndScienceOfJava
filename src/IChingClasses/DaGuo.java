@@ -9,6 +9,7 @@ import java.util.HashMap;
 public class DaGuo  extends IChingStone implements IChingLineNames {
 
     GImage image;
+    String imagePath;
     String element;
     HashMap qualities;
     String familyMember;
@@ -19,28 +20,28 @@ public class DaGuo  extends IChingStone implements IChingLineNames {
     int number;
 
     public DaGuo() {
-        image = new GImage("IChingImages/IChingClasses.JieLimitation.png");
-        element = "Water, Lake";
+        imagePath = "../IChingImages/UpToSixtyFour/28.DaGuo.jpg";
+        image = new GImage(imagePath);
+        element = "Lake, Wind";
         qualities = new HashMap<String, String>();
-        qualities.put("1", "Control" );
-        qualities.put("2", "Restriction");
-        qualities.put("3", "Limitation");
-        qualities.put("4", "Articulation");
-        qualities.put("5", "Separate and distinguish");
-        qualities.put("6", "Setting boundaries");
-        qualities.put("7", "Constraint");
-        qualities.put("8", "Self-control");
+        qualities.put("1", "Too much" );
+        qualities.put("2", "Overload");
+        qualities.put("3", "Critical mass");
+        qualities.put("4", "Taking a stand");
+        qualities.put("5", "Setting priorities");
+        qualities.put("6", "Making choices");
+        qualities.put("7", "Preponderance of the great");
         divination = getDivinationText();
-        number = 60;
+        number = 28;
     }
 
     private HashMap getDivinationText() {
         HashMap divination = new HashMap<String, String>();
-        String title = "IChingClasses.Jie - Limitation";
-        String keywords = "Control, restriction, limitation, articulation, separate and distinguish, setting boundaries, constraint, self-control";
-        String theJudgement = " Limitation. Success. One should not engage in bitter limitation";
-        String theJudgementDescription = "Limitation is a necessary element of a happy life. Limiting expenditures is necessary to remain solvent, limiting passions is necessary for maturity and sound judgement. The best limitations are those we choose for ourselves. They strenghten our character and make life easier to bear. You are facing a situation in which limitation is necessary. Perhaps you have taken on to much, or perhaps you have become self-indulgent or carried things to extremes. Whatever the problem, it is up to you to rectify matters by enforcing boundaries and reining things in a bit. Moderation is the key here. You have to strike a new balance in your life. To do that you will need to exercise some self-restraint. If you work at self discipline, it will eventually come naturally to you. Adopt good habits and doing the right thing will become easy rather than a burden. The same principles apply to your finances. Keep an eye on your expenditures, and void anything that is too extravagant. Be prudent without being stingy. Limitation means setting priorities. Decide what your responsabilities are and be prepared to live up to them. You may have to make some tradeoffs. Short0term sacrifices may be necessary. But in the long run, it will be worth it. You cannot have everything in life. You need to decide what is most important to you. That is how to achieve peace of mind. You may be facing limitation in your everyday environment. If so, be realistic. Don't bite more than you can chew. Accomodate yourself to present conditions with optimism and good humor. Accept the restrictions with grace and without rancor. You can do more now if you remain adaptable and flexible. Don't give up hope, instead, make the most out of what you have. Be content to make progress in smaller steps, taking one thing at a time. Don't try to do more than present circumstances allow. Limitation is good when it strenghtens people, increases their self-control, and makes them more self-reliant. It is bad when it is punitive and counter-productive. You will gain nothing by being to hard on yourself. Your goal should be balance and moderation, not asceticism or self-abuse. Similarily, if you are too hard on others , your attempts at discipline will do you and them no good. People will either lose confidence in you or they will rebel at your attempts to control them. Thus the text says that you should avoid bitter limitation, because that is going too far. You need to excercise restraint in all things, including the exercise of restraint itself.";
-        String theImage = "Above the lake is water. This is the image of Limitation. Thus the superior person establishes measures and limits, and deliberates about the nature of virtuous conduct.";
+        String title = "Da Guo - Greatness in excess";
+        String keywords = "Preponderance of the great, Too much, overload, Critical mass, taking a stand, setting priorities, making choices";
+        String theJudgement = "Greatness in excess, The ridgepole sags, Its beneficial to have somewhere to go, success";
+        String theJudgementDescription = "The ridgepole is a support beam on which the weight of the entire room rests. The load that it bears is to great, therefore it sags to the breaking point. The ridgepole is a metephor for a sittuation for which stresses and strains have reached their maximum. Something will have to give.  Da Guo describes an exceptional time. Circumstances have reached a point of crisis. You face pressures from all directions. Perhaps you have taken on to much , or perhaps expectations and obligations that were at one point bearable and reasonable have slowly but surely increased to the point that they became to great. Whatever the case, something needs to be done, and quickly. You must make a transition to a new sittuation without delay. Nevertheless you cannot force matters.  A sudden movement under the ridgepole under great stress will snap it, bringing the whole roof crashing down. In the same way, the stresses and the strains of the situation cannot be relived by rash actions. Instead you must carefully consider the underlying causes of the crisis that you now find yourself in. There is 'to much' in the sittuation, but you need to consider what that to much is. Perhaps you have overestimated what you can do because you are to eager to get ahead, or because you lack the necessary skills and talents. You have not learned the value of patience and proper preparation. Perhaps you have became to aggressive or to obsessive, on the one hand, or too anxious and apprehensive on the other. Your fears and obsessions have cut you off from others, or have led you to engage in self-destructive habits. Perhaps the pressure comes from your relationships with others. You or another person may be engaged in obsessive and  excessive behaviour. Your judgement, or theirs, is impaired because emotions and insecurities are running high. Whatever the problem, you must act now to restore balance in your life, It is up to you to restore a sense of reality and stability to the situation. Things cannot go on as they have been. You must reassess your priorities. You must make a change. Once you have decided what the problem is, you must act quickly but with gentleness and composure. The time calls for extraordinary measures, but the transition must be peacefull and nonviolent. The problem has been a growing imbalance. The solution will only come from restoring balance, not from exacerbating the problem. A time for greatness in excess calls for a corresponding greatness in your character. Not only must you recognize the need for change, but you must carry it out gently and swiftly , without fear or anexiety";
+        String theImage = "The lake over the trees, this is the image of greatness in excess. Thus the superior person when he stands alone, is unafraid, and if he has to renounce the world , he is undaunted";
         divination.put("Title", title);
         divination.put("Keywords", keywords);
         divination.put("The Judgement", theJudgement);
@@ -79,8 +80,10 @@ public class DaGuo  extends IChingStone implements IChingLineNames {
 
     public int getNumber() { return number;}
 
+    public String getImagePath() { return imagePath; }
+
     @Override
     public void create() {
-        new JieLimitation();
+        new DaGuo();
     }
 }

@@ -1,84 +1,13 @@
+
 import IChingClasses.Qian;
 import acm.graphics.GImage;
 import acm.program.ConsoleProgram;
 
-import java.util.EventObject;
 import java.util.HashMap;
 
 public class QuianTests extends ConsoleProgram {
 
     GImage thisImage;
-
-    public void run() {
-        Qian quian = new Qian();
-        GImage quianImage = quian.getIChingImage();
-        String isSameImage = isQuianImage(quianImage);
-        println(isSameImage);
-
-        String isSameImagePath = isQuianSamePath(quianImage);
-        println(isSameImagePath);
-
-        String elementName = quian.getElementName();
-        String thisElementName = "Heaven, Heaven";
-        String isSameElementName = isSameElementName(elementName, thisElementName);
-        println(isSameElementName);
-
-        HashMap elementQualities = quian.getElementQualities();
-        HashMap elementQualitiesShouldBe = new HashMap<String, String>();
-        elementQualitiesShouldBe.put("1", "Creative");
-        elementQualitiesShouldBe.put("2", "Dynamic");
-        elementQualitiesShouldBe.put("3", "Strong");
-        elementQualitiesShouldBe.put("4", "Assertion");
-        elementQualitiesShouldBe.put("5", "Strenght");
-        elementQualitiesShouldBe.put("6", "Decisiveness");
-        elementQualitiesShouldBe.put("7", "Strong Action");
-        elementQualitiesShouldBe.put("8", "Going forward");
-        elementQualitiesShouldBe.put("9", "Moving upward");
-        elementQualitiesShouldBe.put("10", " Undertaking something");
-        elementQualitiesShouldBe.put("11", "Constant and ceaseless exertion");
-        String hasSameElementQualities = hasSameElementQualities(elementQualitiesShouldBe, elementQualities);
-        println(hasSameElementQualities);
-
-        String quianfamilyMember = quian.getFamilyMember();
-        String isFamilyMember = "Father";
-        String isTheSameFamilyMember = isTheSameFamilyMember(quianfamilyMember, isFamilyMember);
-        println(isTheSameFamilyMember);
-
-        HashMap quianBodyPart = quian.getBodyPart();
-        HashMap thisBodyPart = new HashMap<String, String>();
-        String hasTheSameBodyParts = hasTheSameBodyPart(quianBodyPart, thisBodyPart);
-        println(hasTheSameBodyParts);
-//        String hasSameParametersInEachBodyPart = hasSameParametersInEachBodyPart(quianBodyPart, thisBodyPart);
-//        println(hasSameParametersInEachBodyPart);
-        String quianAnimal = quian.getRelatedAnimal();
-        String thisAnimal = "Horse";
-        String isTheSameAnimal = isTheSameAnimal(quianAnimal, thisAnimal);
-        println(isTheSameAnimal);
-
-        HashMap seasonAndWeather = quian.getSeasonAndWeather();
-        HashMap thisSeasonAndWeather = new HashMap<String, String>();
-        String areTheSameSeasonsAndWeather = areTheSameSeasonsAndWeather(seasonAndWeather, thisSeasonAndWeather);
-        println(areTheSameSeasonsAndWeather);
-
-        String seasonsAndWeatherHasSameKeyAndValuessAsExpected = seasonsAndWeatherHasSameKeyAndValuessAsExpected(seasonAndWeather);
-        println(seasonsAndWeatherHasSameKeyAndValuessAsExpected);
-
-        int number  = quian.getNumber();
-        int thisNumber = 1;
-
-        if(number == thisNumber) {
-            String quianHasSameNumber = "Quian has same number and it is ".concat (String.valueOf(quian.getNumber()));
-            println(quianHasSameNumber);
-        } else {
-            String quianDoesentHaveTheSameNumber = "Quian does not have same number";
-            println(quianDoesentHaveTheSameNumber);
-        }
-
-        HashMap divination = quian.getDivination();
-        String isDivinationSameAsExpected = isDivinationSameAsExpected(divination);
-
-        println(isDivinationSameAsExpected);
-    }
 
     public String isQuianImage(GImage quianImage) {
         String isSameImage = "This is the same image";
@@ -91,12 +20,24 @@ public class QuianTests extends ConsoleProgram {
         }
     }
 
+    //TO CHECK Further
     public String isQuianSamePath(GImage quianImage) {
         String isSameImagePath = "This is the same image path";
         String isNotSameImagePath = "This is not the same image path";
         String imagePath = "../IChingImages/UpToSixtyFour/1.Qian.jpg";
         String thisImage = "Quian Image has a temporary path link in the util package  @ EventObject . At current development level image can only be extended";
         return thisImage;
+    }
+
+    public String isClassImagePathTheSame(Qian qian){
+        String isTheSameImagePath = "The image path is the same and is: "+ qian.getImagePath();
+        String isNotTheSameImagePath = "The image path is not the same";
+        String expectedImagePath = "../IChingImages/UpToSixtyFour/1.Qian.jpg";
+        if(qian.getImagePath().equals(expectedImagePath)) {
+            return isTheSameImagePath;
+        } else {
+            return isNotTheSameImagePath;
+        }
     }
 
     public String isSameElementName(String quianElementName, String elementName) {
@@ -108,6 +49,8 @@ public class QuianTests extends ConsoleProgram {
             return isNotSameElementName;
         }
     }
+
+
 
     public String hasSameElementQualities(HashMap elementQualitiesShouldBe, HashMap elementQualities) {
         String haveTheSameQualities = "Quian element has the same qualities";
@@ -130,18 +73,14 @@ public class QuianTests extends ConsoleProgram {
     }
 
     public String hasTheSameBodyPart(HashMap quianBodyPart, HashMap thisBodyPart) {
-        String hasTheSameBodyPart = "Quian element has the same body parts";
-        String doesNotHaveTheSameBodyPart = " Quian element has the same body part";
-        boolean isTrue = true;
-        boolean isFalse = false;
-        println(quianBodyPart);
-        println(thisBodyPart);
+        String hasSameBodyParts = "";
         if (quianBodyPart.equals(thisBodyPart)) {
-            isTrue = true;
+            hasSameBodyParts ="Quian element has the same body parts";
         } else {
-            isFalse = false;
+            hasSameBodyParts =  " Quian element has the same body part";
         }
-        return "The Equals method considers an empty hash map and one with set parameters to be same value";
+
+        return hasSameBodyParts +  " \nThe Equals method considers an empty hash map and one with set parameters to be same value";
     }
 
     public String hasSameParametersInEachBodyPart(HashMap quianBodyPart, HashMap thisBodyPart) {
@@ -180,7 +119,7 @@ public class QuianTests extends ConsoleProgram {
         }
     }
 
-    public String seasonsAndWeatherHasSameKeyAndValuessAsExpected(HashMap seasonsAndWeather) {
+    public String seasonsAndWeatherHasSameKeyAndValuesAsExpected(HashMap seasonsAndWeather) {
         String returnAnswer = "";
         Object keyOne = seasonsAndWeather.get("1");
         String quianKeyOne = keyOne.toString();
@@ -240,4 +179,15 @@ public class QuianTests extends ConsoleProgram {
 
         return returnAnswer;
     }
+
+    public String isSameNumber(int quianNumber, int expectedQuianNumber){
+        String isSameNumber = "";
+        if(quianNumber == expectedQuianNumber) {
+            isSameNumber = "Quian has same number and it is ".concat (String.valueOf(quianNumber));
+        } else {
+             isSameNumber = "Quian does not have same number";
+        }
+        return isSameNumber;
+    }
+
 }

@@ -1,7 +1,5 @@
 package IChingClasses;
 
-import WoraklsSoGood.KevinRodriguez.IChing.IChingStoneModel;
-
 public class IChingStone {
 
     public IChingStone getHashMapPropreties;
@@ -22,6 +20,4 @@ public class IChingStone {
     public void create(){
 
     }
-
-
 }

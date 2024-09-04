@@ -6,6 +6,7 @@ import java.util.HashMap;
 public class Qian extends IChingStone implements IChingLineNames {
 
     GImage image;
+    String imagePath;
     String element;
     HashMap qualities;
     String familyMember;
@@ -16,14 +17,15 @@ public class Qian extends IChingStone implements IChingLineNames {
     int number;
 
     public Qian() {
-        image = new GImage("../IChingImages/UpToSixtyFour/1.Qian.jpg");
+        imagePath =  "../IChingImages/UpToSixtyFour/1.Qian.jpg";
+        image = new GImage(imagePath);
         element = "Heaven, Heaven";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Creative" );
         qualities.put("2", "Dynamic");
         qualities.put("3", "Strong");
         qualities.put("4", "Assertion");
-        qualities.put("5", "Strenght");
+        qualities.put("5", "Strength");
         qualities.put("6", "Decisiveness");
         qualities.put("7", "Strong Action");
         qualities.put("8", "Going forward");
@@ -87,6 +89,8 @@ public class Qian extends IChingStone implements IChingLineNames {
     public HashMap getDivination() { return divination;}
 
     public int getNumber() { return number;}
+
+    public String getImagePath() { return imagePath;}
 
     @Override
     public void create() {

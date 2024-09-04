@@ -14,28 +14,28 @@ public class AbstractIChingStoneFactory {
 
     private IChingStone defineStone(String stoneOneName, String stoneTwoName) {
         IChingStone stoneName = null;
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Qian")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("Qian")) {
             stoneName = new Qian();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Zhen")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Zhen")) {
             stoneName =  new WuWang();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Kan")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Kan")) {
             stoneName = new Song();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Gen")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Gen")) {
             stoneName = new Dun();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Kun")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Kun")) {
             stoneName =  new Pi();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Xun")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Xun")) {
             stoneName = new Gou();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Li")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Li")) {
             stoneName = new TongRen();
         }
-        if(stoneOneName.equals("IChingClasses.Qian") && stoneTwoName.equals("IChingClasses.Dui")) {
+        if(stoneOneName.equals("Qian") && stoneTwoName.equals("IChingClasses.Dui")) {
             stoneName = new LuTreading();
         }
         if(stoneOneName.equals("IChingClasses.Zhen") && stoneTwoName.equals("IChingClasses.Qian")) {
@@ -189,7 +189,7 @@ public class AbstractIChingStoneFactory {
             stoneName = new Sui();
         }
         if(stoneOneName.equals("IChingClasses.Dui") && stoneTwoName.equals("IChingClasses.Kan")) {
-            stoneName =  new DuiOverflowing();
+            stoneName =  new KunOppression();
         }
         if(stoneOneName.equals("IChingClasses.Dui") && stoneTwoName.equals("IChingClasses.Gen")) {
             stoneName =  new XianMutualInfluence();

@@ -1,0 +1,26 @@
+Initially there are m M and w W and all are free
+While t here is a man m who is free and hasnt proposed to every woman
+
+Choose such a man m
+    Let w be the highest ranked woman in m Preference list to whom m has not yet proposed
+    If w is free then
+       (m, w) become engaged
+    Else if w is currently engaged to m'
+       If w prefers m' to m
+            m becomes free
+       Else w prefers m to m'
+           m' becomes free
+       Endif
+    Endif
+EndWhile
+Returns the set of engaged pairs
+
+-----------------------------------
+Top preference is 0 for everyone, but thats not even being available. So the rest of the elements preference is:
+preference list according to elements:
+if elements are pure, that's preference nr 1.
+fx: heaven, earth, mountain, water, fire, lake, wind are choice nr 1
+if elements are a combination, preference number 2 are combinations of elements which they do not have
+fx: heaven - earth  prefer mountain- fire, fire- lake, water-wind etc. if elements are pure, thats also preference number 1 over combinations
+
+

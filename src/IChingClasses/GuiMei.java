@@ -7,6 +7,7 @@ import java.util.HashMap;
 public class GuiMei extends IChingStone implements IChingLineNames {
 
     GImage image;
+    String imagePath;
     String element;
     HashMap qualities;
     String familyMember;
@@ -17,7 +18,8 @@ public class GuiMei extends IChingStone implements IChingLineNames {
     int number;
 
     public GuiMei() {
-        image = new GImage("../IChingImages/UpToSixtyFour/54.GuiMei.jpg");
+        imagePath = "../IChingImages/UpToSixtyFour/54.GuiMei.jpg";
+        image = new GImage(imagePath);
         element = "Thunder, Lake";
         qualities = new HashMap<String, String>();
         qualities.put("1", "The Marrying Maiden" );
@@ -73,6 +75,8 @@ public class GuiMei extends IChingStone implements IChingLineNames {
     public HashMap getDivination() { return divination;}
 
     public int getNumber() { return number;}
+
+    public String getImagePath() { return imagePath; }
 
     @Override
     public void create() {

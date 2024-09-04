@@ -6,6 +6,7 @@ import java.util.HashMap;
 public class ShengAscending extends IChingStone implements IChingLineNames {
 
     GImage image;
+    String imagePath;
     String element;
     HashMap qualities;
     String familyMember;
@@ -16,7 +17,8 @@ public class ShengAscending extends IChingStone implements IChingLineNames {
     int number;
 
     public ShengAscending(){
-        image = new GImage("../IChingImages/UpToSixtyFour/46.ShengAscending.jpg");
+        imagePath = "../IChingImages/UpToSixtyFour/46.ShengAscending.jpg";
+        image = new GImage(imagePath);
         element = "Earth, Wind";
         qualities = new HashMap<String, String>();
         qualities.put("1", "Pushing upward" );
@@ -79,6 +81,8 @@ public class ShengAscending extends IChingStone implements IChingLineNames {
     public HashMap getDivination() { return divination;}
 
     public int getNumber() { return number; }
+
+    public String getImagePath() { return imagePath; }
 
     @Override
     public void create() { new ShengAscending();}
